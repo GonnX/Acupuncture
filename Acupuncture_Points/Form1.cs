@@ -44,6 +44,11 @@ namespace Acupuncture_Points
 
             this.FormClosing += Form1_FormClosing;
 
+            String[] All_Port = SerialPort.GetPortNames();
+
+            foreach (String item in All_Port)
+                ComPort_Combobox.Items.Add(item);
+            
             Tb = new System.Windows.Forms.TextBox[Btn_Size]
             {Acupuncture_Points_1_Tb, Acupuncture_Points_2_Tb, Acupuncture_Points_3_Tb, Acupuncture_Points_4_Tb, Acupuncture_Points_5_Tb,
              Acupuncture_Points_6_Tb, Acupuncture_Points_7_Tb, Acupuncture_Points_8_Tb, Acupuncture_Points_9_Tb, Acupuncture_Points_10_Tb};
@@ -61,8 +66,8 @@ namespace Acupuncture_Points
                 Btn[i].Enabled = false;
                 Tb[i].Enabled = false;
             }
-            port = new SerialPort("COM14", 9600, Parity.None, 8, StopBits.One);
-            port.Open();
+            //port = new SerialPort("COM14", 9600, Parity.None, 8, StopBits.One);
+            //port.Open();
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
@@ -121,8 +126,12 @@ namespace Acupuncture_Points
 
             if ( ( FileName_Tb.Text != "" && Acupuncture_Points_Count_Tb.Text != "" ) && 
                 reg1.IsMatch(Acupuncture_Points_Count_Tb.Text) &&
-                (Convert.ToInt16(Acupuncture_Points_Count_Tb.Text) > 0 && Convert.ToInt16(Acupuncture_Points_Count_Tb.Text) < 11))
+                (Convert.ToInt16(Acupuncture_Points_Count_Tb.Text) > 0 && Convert.ToInt16(Acupuncture_Points_Count_Tb.Text) < 11) &&
+                BaudRate.Text != "" && ComPort_Combobox.Text != "")
             {
+                port = new SerialPort(ComPort_Combobox.GetItemText(ComPort_Combobox.SelectedItem), Convert.ToInt16(BaudRate.Text), Parity.None, 8, StopBits.One);
+                port.Open();
+
                 File[0] = FileName_Tb.Text;
                 File[1] = Acupuncture_Points_Count_Tb.Text;
 
@@ -138,7 +147,7 @@ namespace Acupuncture_Points
                 }
                 Ok_Btn.Enabled = false;
             }
-            else MessageBox.Show("未輸入檔名及穴位數或者欄位數超過10個");
+            else MessageBox.Show("未輸入檔名及穴位數、者欄位數超過10個或者有欄位未輸入");
         }
         private void SetupChart()
         {

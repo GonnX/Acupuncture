@@ -1,0 +1,9 @@
+c:\users\luolab\documents\visual studio 2015\Projects\Acupuncture_Points\Acupuncture_Points\bin\Debug\Acupuncture_Points.exe.config
+c:\users\luolab\documents\visual studio 2015\Projects\Acupuncture_Points\Acupuncture_Points\bin\Debug\Acupuncture_Points.exe
+c:\users\luolab\documents\visual studio 2015\Projects\Acupuncture_Points\Acupuncture_Points\bin\Debug\Acupuncture_Points.pdb
+c:\users\luolab\documents\visual studio 2015\Projects\Acupuncture_Points\Acupuncture_Points\obj\Debug\Acupuncture_Points.csprojResolveAssemblyReference.cache
+c:\users\luolab\documents\visual studio 2015\Projects\Acupuncture_Points\Acupuncture_Points\obj\Debug\Acupuncture_Points.Properties.Resources.resources
+c:\users\luolab\documents\visual studio 2015\Projects\Acupuncture_Points\Acupuncture_Points\obj\Debug\Acupuncture_Points.csproj.GenerateResource.Cache
+c:\users\luolab\documents\visual studio 2015\Projects\Acupuncture_Points\Acupuncture_Points\obj\Debug\Acupuncture_Points.exe
+c:\users\luolab\documents\visual studio 2015\Projects\Acupuncture_Points\Acupuncture_Points\obj\Debug\Acupuncture_Points.pdb
+c:\users\luolab\documents\visual studio 2015\Projects\Acupuncture_Points\Acupuncture_Points\obj\Debug\Acupuncture_Points.Form1.resources

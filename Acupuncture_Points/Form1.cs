@@ -158,7 +158,7 @@ namespace Acupuncture_Points
                 File[0] = FileName_Tb.Text;
                 File[1] = Acupuncture_Points_Count_Tb.Text;
 
-                File_Stream_Writer = new StreamWriter(@"C:\Users\LuoLab\Desktop\" + File[0] + ".txt");
+                File_Stream_Writer = new StreamWriter(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory) + "\\" + File[0] + ".txt");
 
                 FileName_Tb.Enabled = false;
                 Acupuncture_Points_Count_Tb.Enabled = false;
@@ -187,8 +187,23 @@ namespace Acupuncture_Points
             series1.Font = new System.Drawing.Font("標楷體", 12);
             series1.ChartType = SeriesChartType.Line;
             area.AxisX.Maximum = 150;
+            area.AxisX.Minimum = 0;
             area.AxisY.Maximum = 1200;
+            area.AxisY.Minimum = 0;
             area.AxisX.Interval = 10;
+
+            int StartOffset = 0;
+            int EndOffset = 15;
+
+            string[] Label_Name = { "1" , "2" ,"3", "4", "5", "6" , "7", "8", "9" , "10", "11", "12" , "13", "14", "15" };
+
+            foreach (string item in Label_Name)
+            {
+                CustomLabel Label = new CustomLabel(StartOffset, EndOffset, item, 0, LabelMarkStyle.None);
+                area.AxisX.CustomLabels.Add(Label);
+                StartOffset += 10;
+                EndOffset += 10;
+            }
         }
         private void Get_Btn_Index(Button button)
         {

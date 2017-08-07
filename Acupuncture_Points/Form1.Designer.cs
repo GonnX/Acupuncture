@@ -105,8 +105,6 @@
             this.Ok_Btn = new System.Windows.Forms.Button();
             this.ComPort_Combobox = new System.Windows.Forms.ComboBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.BaudRate = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.Acupuncture_Points_1_Chart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Acupuncture_Points_2_Chart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Acupuncture_Points_3_Chart)).BeginInit();
@@ -392,7 +390,7 @@
             // 
             // FileName_Tb
             // 
-            this.FileName_Tb.Location = new System.Drawing.Point(794, 12);
+            this.FileName_Tb.Location = new System.Drawing.Point(653, 14);
             this.FileName_Tb.Name = "FileName_Tb";
             this.FileName_Tb.Size = new System.Drawing.Size(94, 22);
             this.FileName_Tb.TabIndex = 41;
@@ -400,7 +398,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(755, 17);
+            this.label11.Location = new System.Drawing.Point(614, 19);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(38, 12);
             this.label11.TabIndex = 42;
@@ -654,7 +652,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(954, 17);
+            this.label12.Location = new System.Drawing.Point(813, 19);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(50, 12);
             this.label12.TabIndex = 54;
@@ -662,14 +660,14 @@
             // 
             // Acupuncture_Points_Count_Tb
             // 
-            this.Acupuncture_Points_Count_Tb.Location = new System.Drawing.Point(1010, 12);
+            this.Acupuncture_Points_Count_Tb.Location = new System.Drawing.Point(869, 14);
             this.Acupuncture_Points_Count_Tb.Name = "Acupuncture_Points_Count_Tb";
             this.Acupuncture_Points_Count_Tb.Size = new System.Drawing.Size(94, 22);
             this.Acupuncture_Points_Count_Tb.TabIndex = 53;
             // 
             // Ok_Btn
             // 
-            this.Ok_Btn.Location = new System.Drawing.Point(1135, 12);
+            this.Ok_Btn.Location = new System.Drawing.Point(994, 14);
             this.Ok_Btn.Name = "Ok_Btn";
             this.Ok_Btn.Size = new System.Drawing.Size(75, 23);
             this.Ok_Btn.TabIndex = 55;
@@ -680,7 +678,7 @@
             // ComPort_Combobox
             // 
             this.ComPort_Combobox.FormattingEnabled = true;
-            this.ComPort_Combobox.Location = new System.Drawing.Point(313, 13);
+            this.ComPort_Combobox.Location = new System.Drawing.Point(402, 15);
             this.ComPort_Combobox.Name = "ComPort_Combobox";
             this.ComPort_Combobox.Size = new System.Drawing.Size(121, 20);
             this.ComPort_Combobox.TabIndex = 56;
@@ -688,35 +686,17 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(253, 17);
+            this.label13.Location = new System.Drawing.Point(342, 19);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(59, 12);
             this.label13.TabIndex = 57;
             this.label13.Text = "Com Port : ";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(518, 17);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(38, 12);
-            this.label14.TabIndex = 59;
-            this.label14.Text = "鮑率 : ";
-            // 
-            // BaudRate
-            // 
-            this.BaudRate.Location = new System.Drawing.Point(557, 12);
-            this.BaudRate.Name = "BaudRate";
-            this.BaudRate.Size = new System.Drawing.Size(94, 22);
-            this.BaudRate.TabIndex = 58;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1519, 683);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.BaudRate);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.ComPort_Combobox);
             this.Controls.Add(this.Ok_Btn);
@@ -833,8 +813,6 @@
         private System.Windows.Forms.Button Ok_Btn;
         private System.Windows.Forms.ComboBox ComPort_Combobox;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox BaudRate;
     }
 }
 

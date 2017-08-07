@@ -44,6 +44,7 @@ namespace Acupuncture_Points
         {
             InitializeComponent();
 
+            this.Text = "傅耳電針";
             this.FormClosing += Form1_FormClosing;
 
             String[] All_Port = SerialPort.GetPortNames();
@@ -150,9 +151,9 @@ namespace Acupuncture_Points
             if ( ( FileName_Tb.Text != "" && Acupuncture_Points_Count_Tb.Text != "" ) && 
                 reg1.IsMatch(Acupuncture_Points_Count_Tb.Text) &&
                 (Convert.ToInt16(Acupuncture_Points_Count_Tb.Text) > 0 && Convert.ToInt16(Acupuncture_Points_Count_Tb.Text) < 11) &&
-                BaudRate.Text != "" && ComPort_Combobox.Text != "")
+                ComPort_Combobox.Text != "")
             {
-                port = new SerialPort(ComPort_Combobox.GetItemText(ComPort_Combobox.SelectedItem), Convert.ToInt16(BaudRate.Text), Parity.None, 8, StopBits.One);
+                port = new SerialPort(ComPort_Combobox.GetItemText(ComPort_Combobox.SelectedItem), 115200, Parity.None, 8, StopBits.One);
                 port.Open();
 
                 File[0] = FileName_Tb.Text;
@@ -188,7 +189,7 @@ namespace Acupuncture_Points
             series1.ChartType = SeriesChartType.Line;
             area.AxisX.Maximum = 150;
             area.AxisX.Minimum = 0;
-            area.AxisY.Maximum = 1200;
+            area.AxisY.Maximum = 260;
             area.AxisY.Minimum = 0;
             area.AxisX.Interval = 10;
 

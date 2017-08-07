@@ -36,6 +36,8 @@ namespace Acupuncture_Points
 
         private int index;
 
+        private bool Flag = false;
+
         StreamWriter File_Stream_Writer;
 
         public Form1()
@@ -86,12 +88,31 @@ namespace Acupuncture_Points
 
             File_Stream_Writer.Write("\r\n");
 
-            for (int i = 0; i < PortData_Size; i++) 
+            for (int i = 0; i < PortData_Size; i++)
                 UpdateChartsingle(port.ReadByte());
 
-            File_Stream_Writer.Write("\r\n");
-            File_Stream_Writer.Write("\r\n");
+            /*
+            int counter = 0;
 
+            do
+            {
+                if(counter != 0)
+                {
+                    SetupChart();
+                    port.Write("R");
+                    MessageBox.Show("資料傳輸有誤，正在重新擷取中，請等候...");
+                }
+
+                for (int i = 0; i < PortData_Size; i++)
+                    UpdateChartsingle(port.ReadByte());
+                counter++;
+            } while (Flag == true);
+
+            Flag = false;
+            */
+            File_Stream_Writer.Write("\r\n");
+            File_Stream_Writer.Write("\r\n");
+            
             /*
             if (PortData.Count != PortData_Size)
             {
@@ -114,6 +135,8 @@ namespace Acupuncture_Points
             }
             else
             {
+                //if (data <= 0)
+                //    Flag = true;
                 File_Stream_Writer.Write(data);
                 File_Stream_Writer.Write(' ');
                 PortData.Add(data);
@@ -151,6 +174,8 @@ namespace Acupuncture_Points
         }
         private void SetupChart()
         {
+            Chart[index].Series.Clear();
+
             ChartArea area = Chart[index].ChartAreas[0];
 
             Series series1 = new Series() ;
@@ -163,7 +188,7 @@ namespace Acupuncture_Points
             series1.ChartType = SeriesChartType.Line;
             area.AxisX.Maximum = 150;
             area.AxisY.Maximum = 1200;
-            area.AxisX.Interval = 75;
+            area.AxisX.Interval = 10;
         }
         private void Get_Btn_Index(Button button)
         {
@@ -180,11 +205,10 @@ namespace Acupuncture_Points
             if (Tb[index].Text != "")
             {
                 Tb[index].Enabled = false;
-                Chart[index].Series.Clear();
                 SetupChart();
+                port.Write("S");
                 PrintCahrt = new Thread(new ThreadStart(this.producer));
                 PrintCahrt.Start();
-                port.Write("S");
             }
             else MessageBox.Show("未輸入穴位名");
         }

@@ -28,36 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea7 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend7 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea8 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend8 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea9 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend9 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea10 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend10 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series10 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea21 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend21 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series21 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea22 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend22 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series22 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea23 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend23 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series23 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea24 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend24 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series24 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea25 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend25 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series25 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea26 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend26 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series26 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea27 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend27 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series27 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea28 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend28 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series28 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea29 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend29 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series29 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea30 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend30 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series30 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.Acupuncture_Points_1_Btn = new System.Windows.Forms.Button();
             this.Acupuncture_Points_2_Btn = new System.Windows.Forms.Button();
             this.Acupuncture_Points_3_Btn = new System.Windows.Forms.Button();
@@ -411,170 +411,170 @@
             this.Acupuncture_Points_1_Chart.BorderlineColor = System.Drawing.Color.Transparent;
             this.Acupuncture_Points_1_Chart.BorderSkin.BackImageTransparentColor = System.Drawing.Color.Transparent;
             this.Acupuncture_Points_1_Chart.BorderSkin.PageColor = System.Drawing.Color.Transparent;
-            chartArea1.Name = "ChartArea1";
-            this.Acupuncture_Points_1_Chart.ChartAreas.Add(chartArea1);
-            legend1.Enabled = false;
-            legend1.Name = "Legend1";
-            this.Acupuncture_Points_1_Chart.Legends.Add(legend1);
+            chartArea21.Name = "ChartArea1";
+            this.Acupuncture_Points_1_Chart.ChartAreas.Add(chartArea21);
+            legend21.Enabled = false;
+            legend21.Name = "Legend1";
+            this.Acupuncture_Points_1_Chart.Legends.Add(legend21);
             this.Acupuncture_Points_1_Chart.Location = new System.Drawing.Point(21, 85);
             this.Acupuncture_Points_1_Chart.Name = "Acupuncture_Points_1_Chart";
-            series1.ChartArea = "ChartArea1";
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.Acupuncture_Points_1_Chart.Series.Add(series1);
+            series21.ChartArea = "ChartArea1";
+            series21.Legend = "Legend1";
+            series21.Name = "Series1";
+            this.Acupuncture_Points_1_Chart.Series.Add(series21);
             this.Acupuncture_Points_1_Chart.Size = new System.Drawing.Size(285, 228);
             this.Acupuncture_Points_1_Chart.TabIndex = 43;
             this.Acupuncture_Points_1_Chart.Text = "chart1";
             // 
             // Acupuncture_Points_2_Chart
             // 
-            chartArea2.Name = "ChartArea1";
-            this.Acupuncture_Points_2_Chart.ChartAreas.Add(chartArea2);
-            legend2.Enabled = false;
-            legend2.Name = "Legend1";
-            this.Acupuncture_Points_2_Chart.Legends.Add(legend2);
+            chartArea22.Name = "ChartArea1";
+            this.Acupuncture_Points_2_Chart.ChartAreas.Add(chartArea22);
+            legend22.Enabled = false;
+            legend22.Name = "Legend1";
+            this.Acupuncture_Points_2_Chart.Legends.Add(legend22);
             this.Acupuncture_Points_2_Chart.Location = new System.Drawing.Point(312, 85);
             this.Acupuncture_Points_2_Chart.Name = "Acupuncture_Points_2_Chart";
-            series2.ChartArea = "ChartArea1";
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            this.Acupuncture_Points_2_Chart.Series.Add(series2);
+            series22.ChartArea = "ChartArea1";
+            series22.Legend = "Legend1";
+            series22.Name = "Series1";
+            this.Acupuncture_Points_2_Chart.Series.Add(series22);
             this.Acupuncture_Points_2_Chart.Size = new System.Drawing.Size(285, 228);
             this.Acupuncture_Points_2_Chart.TabIndex = 44;
             this.Acupuncture_Points_2_Chart.Text = "chart2";
             // 
             // Acupuncture_Points_3_Chart
             // 
-            chartArea3.Name = "ChartArea1";
-            this.Acupuncture_Points_3_Chart.ChartAreas.Add(chartArea3);
-            legend3.Enabled = false;
-            legend3.Name = "Legend1";
-            this.Acupuncture_Points_3_Chart.Legends.Add(legend3);
+            chartArea23.Name = "ChartArea1";
+            this.Acupuncture_Points_3_Chart.ChartAreas.Add(chartArea23);
+            legend23.Enabled = false;
+            legend23.Name = "Legend1";
+            this.Acupuncture_Points_3_Chart.Legends.Add(legend23);
             this.Acupuncture_Points_3_Chart.Location = new System.Drawing.Point(603, 85);
             this.Acupuncture_Points_3_Chart.Name = "Acupuncture_Points_3_Chart";
-            series3.ChartArea = "ChartArea1";
-            series3.Legend = "Legend1";
-            series3.Name = "Series1";
-            this.Acupuncture_Points_3_Chart.Series.Add(series3);
+            series23.ChartArea = "ChartArea1";
+            series23.Legend = "Legend1";
+            series23.Name = "Series1";
+            this.Acupuncture_Points_3_Chart.Series.Add(series23);
             this.Acupuncture_Points_3_Chart.Size = new System.Drawing.Size(285, 228);
             this.Acupuncture_Points_3_Chart.TabIndex = 45;
             this.Acupuncture_Points_3_Chart.Text = "chart3";
             // 
             // Acupuncture_Points_4_Chart
             // 
-            chartArea4.Name = "ChartArea1";
-            this.Acupuncture_Points_4_Chart.ChartAreas.Add(chartArea4);
-            legend4.Enabled = false;
-            legend4.Name = "Legend1";
-            this.Acupuncture_Points_4_Chart.Legends.Add(legend4);
+            chartArea24.Name = "ChartArea1";
+            this.Acupuncture_Points_4_Chart.ChartAreas.Add(chartArea24);
+            legend24.Enabled = false;
+            legend24.Name = "Legend1";
+            this.Acupuncture_Points_4_Chart.Legends.Add(legend24);
             this.Acupuncture_Points_4_Chart.Location = new System.Drawing.Point(894, 85);
             this.Acupuncture_Points_4_Chart.Name = "Acupuncture_Points_4_Chart";
-            series4.ChartArea = "ChartArea1";
-            series4.Legend = "Legend1";
-            series4.Name = "Series1";
-            this.Acupuncture_Points_4_Chart.Series.Add(series4);
+            series24.ChartArea = "ChartArea1";
+            series24.Legend = "Legend1";
+            series24.Name = "Series1";
+            this.Acupuncture_Points_4_Chart.Series.Add(series24);
             this.Acupuncture_Points_4_Chart.Size = new System.Drawing.Size(285, 228);
             this.Acupuncture_Points_4_Chart.TabIndex = 46;
             this.Acupuncture_Points_4_Chart.Text = "chart4";
             // 
             // Acupuncture_Points_5_Chart
             // 
-            chartArea5.Name = "ChartArea1";
-            this.Acupuncture_Points_5_Chart.ChartAreas.Add(chartArea5);
-            legend5.Enabled = false;
-            legend5.Name = "Legend1";
-            this.Acupuncture_Points_5_Chart.Legends.Add(legend5);
+            chartArea25.Name = "ChartArea1";
+            this.Acupuncture_Points_5_Chart.ChartAreas.Add(chartArea25);
+            legend25.Enabled = false;
+            legend25.Name = "Legend1";
+            this.Acupuncture_Points_5_Chart.Legends.Add(legend25);
             this.Acupuncture_Points_5_Chart.Location = new System.Drawing.Point(1185, 85);
             this.Acupuncture_Points_5_Chart.Name = "Acupuncture_Points_5_Chart";
-            series5.ChartArea = "ChartArea1";
-            series5.Legend = "Legend1";
-            series5.Name = "Series1";
-            this.Acupuncture_Points_5_Chart.Series.Add(series5);
+            series25.ChartArea = "ChartArea1";
+            series25.Legend = "Legend1";
+            series25.Name = "Series1";
+            this.Acupuncture_Points_5_Chart.Series.Add(series25);
             this.Acupuncture_Points_5_Chart.Size = new System.Drawing.Size(285, 228);
             this.Acupuncture_Points_5_Chart.TabIndex = 47;
             this.Acupuncture_Points_5_Chart.Text = "chart5";
             // 
             // Acupuncture_Points_10_Chart
             // 
-            chartArea6.Name = "ChartArea1";
-            this.Acupuncture_Points_10_Chart.ChartAreas.Add(chartArea6);
-            legend6.Enabled = false;
-            legend6.Name = "Legend1";
-            this.Acupuncture_Points_10_Chart.Legends.Add(legend6);
+            chartArea26.Name = "ChartArea1";
+            this.Acupuncture_Points_10_Chart.ChartAreas.Add(chartArea26);
+            legend26.Enabled = false;
+            legend26.Name = "Legend1";
+            this.Acupuncture_Points_10_Chart.Legends.Add(legend26);
             this.Acupuncture_Points_10_Chart.Location = new System.Drawing.Point(1185, 396);
             this.Acupuncture_Points_10_Chart.Name = "Acupuncture_Points_10_Chart";
-            series6.ChartArea = "ChartArea1";
-            series6.Legend = "Legend1";
-            series6.Name = "Series1";
-            this.Acupuncture_Points_10_Chart.Series.Add(series6);
+            series26.ChartArea = "ChartArea1";
+            series26.Legend = "Legend1";
+            series26.Name = "Series1";
+            this.Acupuncture_Points_10_Chart.Series.Add(series26);
             this.Acupuncture_Points_10_Chart.Size = new System.Drawing.Size(285, 228);
             this.Acupuncture_Points_10_Chart.TabIndex = 52;
             this.Acupuncture_Points_10_Chart.Text = "chart6";
             // 
             // Acupuncture_Points_9_Chart
             // 
-            chartArea7.Name = "ChartArea1";
-            this.Acupuncture_Points_9_Chart.ChartAreas.Add(chartArea7);
-            legend7.Enabled = false;
-            legend7.Name = "Legend1";
-            this.Acupuncture_Points_9_Chart.Legends.Add(legend7);
+            chartArea27.Name = "ChartArea1";
+            this.Acupuncture_Points_9_Chart.ChartAreas.Add(chartArea27);
+            legend27.Enabled = false;
+            legend27.Name = "Legend1";
+            this.Acupuncture_Points_9_Chart.Legends.Add(legend27);
             this.Acupuncture_Points_9_Chart.Location = new System.Drawing.Point(894, 396);
             this.Acupuncture_Points_9_Chart.Name = "Acupuncture_Points_9_Chart";
-            series7.ChartArea = "ChartArea1";
-            series7.Legend = "Legend1";
-            series7.Name = "Series1";
-            this.Acupuncture_Points_9_Chart.Series.Add(series7);
+            series27.ChartArea = "ChartArea1";
+            series27.Legend = "Legend1";
+            series27.Name = "Series1";
+            this.Acupuncture_Points_9_Chart.Series.Add(series27);
             this.Acupuncture_Points_9_Chart.Size = new System.Drawing.Size(285, 228);
             this.Acupuncture_Points_9_Chart.TabIndex = 51;
             this.Acupuncture_Points_9_Chart.Text = "chart7";
             // 
             // Acupuncture_Points_8_Chart
             // 
-            chartArea8.Name = "ChartArea1";
-            this.Acupuncture_Points_8_Chart.ChartAreas.Add(chartArea8);
-            legend8.Enabled = false;
-            legend8.Name = "Legend1";
-            this.Acupuncture_Points_8_Chart.Legends.Add(legend8);
+            chartArea28.Name = "ChartArea1";
+            this.Acupuncture_Points_8_Chart.ChartAreas.Add(chartArea28);
+            legend28.Enabled = false;
+            legend28.Name = "Legend1";
+            this.Acupuncture_Points_8_Chart.Legends.Add(legend28);
             this.Acupuncture_Points_8_Chart.Location = new System.Drawing.Point(603, 396);
             this.Acupuncture_Points_8_Chart.Name = "Acupuncture_Points_8_Chart";
-            series8.ChartArea = "ChartArea1";
-            series8.Legend = "Legend1";
-            series8.Name = "Series1";
-            this.Acupuncture_Points_8_Chart.Series.Add(series8);
+            series28.ChartArea = "ChartArea1";
+            series28.Legend = "Legend1";
+            series28.Name = "Series1";
+            this.Acupuncture_Points_8_Chart.Series.Add(series28);
             this.Acupuncture_Points_8_Chart.Size = new System.Drawing.Size(285, 228);
             this.Acupuncture_Points_8_Chart.TabIndex = 50;
             this.Acupuncture_Points_8_Chart.Text = "chart8";
             // 
             // Acupuncture_Points_7_Chart
             // 
-            chartArea9.Name = "ChartArea1";
-            this.Acupuncture_Points_7_Chart.ChartAreas.Add(chartArea9);
-            legend9.Enabled = false;
-            legend9.Name = "Legend1";
-            this.Acupuncture_Points_7_Chart.Legends.Add(legend9);
+            chartArea29.Name = "ChartArea1";
+            this.Acupuncture_Points_7_Chart.ChartAreas.Add(chartArea29);
+            legend29.Enabled = false;
+            legend29.Name = "Legend1";
+            this.Acupuncture_Points_7_Chart.Legends.Add(legend29);
             this.Acupuncture_Points_7_Chart.Location = new System.Drawing.Point(312, 396);
             this.Acupuncture_Points_7_Chart.Name = "Acupuncture_Points_7_Chart";
-            series9.ChartArea = "ChartArea1";
-            series9.Legend = "Legend1";
-            series9.Name = "Series1";
-            this.Acupuncture_Points_7_Chart.Series.Add(series9);
+            series29.ChartArea = "ChartArea1";
+            series29.Legend = "Legend1";
+            series29.Name = "Series1";
+            this.Acupuncture_Points_7_Chart.Series.Add(series29);
             this.Acupuncture_Points_7_Chart.Size = new System.Drawing.Size(285, 228);
             this.Acupuncture_Points_7_Chart.TabIndex = 49;
             this.Acupuncture_Points_7_Chart.Text = "chart9";
             // 
             // Acupuncture_Points_6_Chart
             // 
-            chartArea10.Name = "ChartArea1";
-            this.Acupuncture_Points_6_Chart.ChartAreas.Add(chartArea10);
-            legend10.Enabled = false;
-            legend10.Name = "Legend1";
-            this.Acupuncture_Points_6_Chart.Legends.Add(legend10);
+            chartArea30.Name = "ChartArea1";
+            this.Acupuncture_Points_6_Chart.ChartAreas.Add(chartArea30);
+            legend30.Enabled = false;
+            legend30.Name = "Legend1";
+            this.Acupuncture_Points_6_Chart.Legends.Add(legend30);
             this.Acupuncture_Points_6_Chart.Location = new System.Drawing.Point(21, 396);
             this.Acupuncture_Points_6_Chart.Name = "Acupuncture_Points_6_Chart";
-            series10.ChartArea = "ChartArea1";
-            series10.Legend = "Legend1";
-            series10.Name = "Series1";
-            this.Acupuncture_Points_6_Chart.Series.Add(series10);
+            series30.ChartArea = "ChartArea1";
+            series30.Legend = "Legend1";
+            series30.Name = "Series1";
+            this.Acupuncture_Points_6_Chart.Series.Add(series30);
             this.Acupuncture_Points_6_Chart.Size = new System.Drawing.Size(285, 228);
             this.Acupuncture_Points_6_Chart.TabIndex = 48;
             this.Acupuncture_Points_6_Chart.Text = "chart10";
@@ -693,7 +693,10 @@
             this.Controls.Add(this.Acupuncture_Points_2_Btn);
             this.Controls.Add(this.Acupuncture_Points_1_Btn);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.Acupuncture_Points_1_Chart)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Acupuncture_Points_2_Chart)).EndInit();

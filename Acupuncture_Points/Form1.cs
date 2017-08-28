@@ -40,6 +40,9 @@ namespace Acupuncture_Points
 
         StreamWriter File_Stream_Writer;
 
+        private int This_Width;
+        private int This_Height;
+
         public Form1()
         {
             InitializeComponent();
@@ -77,7 +80,8 @@ namespace Acupuncture_Points
         {
             if (File_Stream_Writer != null)
                 File_Stream_Writer.Close();
-            Environment.Exit(Environment.ExitCode);
+            port.Close();
+            //Environment.Exit(Environment.ExitCode);
         }
 
         void producer()
@@ -227,6 +231,21 @@ namespace Acupuncture_Points
                 PrintCahrt.Start();
             }
             else MessageBox.Show("未輸入穴位名");
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            This_Width = Screen.PrimaryScreen.Bounds.Width;
+            This_Height = Screen.PrimaryScreen.Bounds.Height;
+            
+            this.Width = This_Width - This_Width / 4;
+            this.Height = This_Height - This_Height / 4;
+            /*
+            for (int i = 0; i < Chart.Length ; i++)
+            {
+                Chart[i].Width = This_Width / 5 - 20;
+                Chart[i].Height = This_Height / 5 - 20;
+            }*/
         }
     }
 }

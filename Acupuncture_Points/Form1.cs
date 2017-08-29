@@ -135,10 +135,7 @@ namespace Acupuncture_Points
         {
             System.Text.RegularExpressions.Regex reg1 = new System.Text.RegularExpressions.Regex("[0-9]");
 
-            if ( ( FileName_Tb.Text != "" && Acupuncture_Points_Count_Tb.Text != "" ) && 
-                reg1.IsMatch(Acupuncture_Points_Count_Tb.Text) &&
-                (Convert.ToInt16(Acupuncture_Points_Count_Tb.Text) > 0 && Convert.ToInt16(Acupuncture_Points_Count_Tb.Text) < 11) &&
-                ComPort_Combobox.Text != "")
+            if ( ComPort_Combobox.Text != "")
             {
                 port = new SerialPort(ComPort_Combobox.GetItemText(ComPort_Combobox.SelectedItem), 115200, Parity.None, 8, StopBits.One);
 
@@ -148,12 +145,7 @@ namespace Acupuncture_Points
                 {
                     MessageBox.Show(io.ToString());
                 }
-
-                FileName_Tb.Enabled = false;
-                
-                Acupuncture_Points_Count_Tb.Enabled = false;
-
-                for (int i = 0; i < Convert.ToInt16(Acupuncture_Points_Count_Tb.Text); i++)
+                for (int i = 0; i < Btn_Size; i++)
                     Btn[i].Enabled = true;
 
                 Ok_Btn.Enabled = false;
@@ -225,23 +217,6 @@ namespace Acupuncture_Points
             this.Width = This_Width - This_Width / 4;
             this.Height = This_Height - This_Height / 4;
         }
-
-        private void saveToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            saveFileDialog1.DefaultExt = ".xlsx";
-
-            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
-            {
-                /*
-                if (Path.EndsWith("\\"))
-                    WBook.SaveCopyAs(Path + FileName_Tb.Text + ".xlsx");
-                else
-                    WBook.SaveCopyAs(Path + "\\" + FileName_Tb.Text + ".xlsx");
-                */
-                WBook.SaveCopyAs(saveFileDialog1.FileName.ToString());
-                MessageBox.Show("Excel檔案新增成功", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-        }
         private void Get_ComboBox_Index(ComboBox combobox)
         {
             for (int i = 0; i < Btn.Length; i++)
@@ -259,6 +234,23 @@ namespace Acupuncture_Points
                 //    i.Items.Add(combobox.Text);
                 Get_ComboBox_Index(combobox);
                 combobox.Items.Add(combobox.Text);
+            }
+        }
+
+        private void saveToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            saveFileDialog1.DefaultExt = ".xlsx";
+
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                /*
+                if (Path.EndsWith("\\"))
+                    WBook.SaveCopyAs(Path + FileName_Tb.Text + ".xlsx");
+                else
+                    WBook.SaveCopyAs(Path + "\\" + FileName_Tb.Text + ".xlsx");
+                */
+                WBook.SaveCopyAs(saveFileDialog1.FileName.ToString());
+                MessageBox.Show("Excel檔案新增成功", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
     }

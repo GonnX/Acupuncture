@@ -122,7 +122,7 @@
     <value>Times New Roman, 9pt</value>
   </data>
   <data name="Acupuncture_Points_1_Btn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>129, 357</value>
+    <value>129, 320</value>
   </data>
   <data name="Acupuncture_Points_1_Btn.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -144,13 +144,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Acupuncture_Points_1_Btn.ZOrder" xml:space="preserve">
-    <value>56</value>
+    <value>46</value>
   </data>
   <data name="Acupuncture_Points_2_Btn.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 9pt</value>
   </data>
   <data name="Acupuncture_Points_2_Btn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>429, 357</value>
+    <value>429, 320</value>
   </data>
   <data name="Acupuncture_Points_2_Btn.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -171,13 +171,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Acupuncture_Points_2_Btn.ZOrder" xml:space="preserve">
-    <value>55</value>
+    <value>45</value>
   </data>
   <data name="Acupuncture_Points_3_Btn.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 9pt</value>
   </data>
   <data name="Acupuncture_Points_3_Btn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>713, 357</value>
+    <value>713, 320</value>
   </data>
   <data name="Acupuncture_Points_3_Btn.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -198,13 +198,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Acupuncture_Points_3_Btn.ZOrder" xml:space="preserve">
-    <value>54</value>
+    <value>44</value>
   </data>
   <data name="Acupuncture_Points_4_Btn.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 9pt</value>
   </data>
   <data name="Acupuncture_Points_4_Btn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1009, 357</value>
+    <value>1009, 320</value>
   </data>
   <data name="Acupuncture_Points_4_Btn.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -225,13 +225,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Acupuncture_Points_4_Btn.ZOrder" xml:space="preserve">
-    <value>53</value>
+    <value>43</value>
   </data>
   <data name="Acupuncture_Points_5_Btn.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 9pt</value>
   </data>
   <data name="Acupuncture_Points_5_Btn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1305, 357</value>
+    <value>1305, 320</value>
   </data>
   <data name="Acupuncture_Points_5_Btn.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -252,13 +252,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Acupuncture_Points_5_Btn.ZOrder" xml:space="preserve">
-    <value>52</value>
+    <value>42</value>
   </data>
   <data name="Acupuncture_Points_6_Btn.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 9pt</value>
   </data>
   <data name="Acupuncture_Points_6_Btn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>129, 669</value>
+    <value>129, 632</value>
   </data>
   <data name="Acupuncture_Points_6_Btn.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -279,13 +279,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Acupuncture_Points_6_Btn.ZOrder" xml:space="preserve">
-    <value>51</value>
+    <value>41</value>
   </data>
   <data name="Acupuncture_Points_7_Btn.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 9pt</value>
   </data>
   <data name="Acupuncture_Points_7_Btn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>429, 669</value>
+    <value>429, 632</value>
   </data>
   <data name="Acupuncture_Points_7_Btn.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -306,13 +306,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Acupuncture_Points_7_Btn.ZOrder" xml:space="preserve">
-    <value>50</value>
+    <value>40</value>
   </data>
   <data name="Acupuncture_Points_8_Btn.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 9pt</value>
   </data>
   <data name="Acupuncture_Points_8_Btn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>713, 669</value>
+    <value>713, 632</value>
   </data>
   <data name="Acupuncture_Points_8_Btn.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -333,13 +333,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Acupuncture_Points_8_Btn.ZOrder" xml:space="preserve">
-    <value>49</value>
+    <value>39</value>
   </data>
   <data name="Acupuncture_Points_9_Btn.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 9pt</value>
   </data>
   <data name="Acupuncture_Points_9_Btn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1000, 669</value>
+    <value>1000, 632</value>
   </data>
   <data name="Acupuncture_Points_9_Btn.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -360,13 +360,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Acupuncture_Points_9_Btn.ZOrder" xml:space="preserve">
-    <value>48</value>
+    <value>38</value>
   </data>
   <data name="Acupuncture_Points_10_Btn.Font" type="System.Drawing.Font, System.Drawing">
     <value>Times New Roman, 9pt</value>
   </data>
   <data name="Acupuncture_Points_10_Btn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1305, 669</value>
+    <value>1305, 632</value>
   </data>
   <data name="Acupuncture_Points_10_Btn.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -387,223 +387,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Acupuncture_Points_10_Btn.ZOrder" xml:space="preserve">
-    <value>47</value>
-  </data>
-  <data name="Acupuncture_Points_1_Tb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>138, 65</value>
-  </data>
-  <data name="Acupuncture_Points_1_Tb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 22</value>
-  </data>
-  <data name="Acupuncture_Points_1_Tb.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="&gt;&gt;Acupuncture_Points_1_Tb.Name" xml:space="preserve">
-    <value>Acupuncture_Points_1_Tb</value>
-  </data>
-  <data name="&gt;&gt;Acupuncture_Points_1_Tb.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Acupuncture_Points_1_Tb.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Acupuncture_Points_1_Tb.ZOrder" xml:space="preserve">
-    <value>46</value>
-  </data>
-  <data name="Acupuncture_Points_2_Tb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>429, 65</value>
-  </data>
-  <data name="Acupuncture_Points_2_Tb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 22</value>
-  </data>
-  <data name="Acupuncture_Points_2_Tb.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
-  </data>
-  <data name="&gt;&gt;Acupuncture_Points_2_Tb.Name" xml:space="preserve">
-    <value>Acupuncture_Points_2_Tb</value>
-  </data>
-  <data name="&gt;&gt;Acupuncture_Points_2_Tb.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Acupuncture_Points_2_Tb.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Acupuncture_Points_2_Tb.ZOrder" xml:space="preserve">
-    <value>45</value>
-  </data>
-  <data name="Acupuncture_Points_3_Tb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>724, 65</value>
-  </data>
-  <data name="Acupuncture_Points_3_Tb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 22</value>
-  </data>
-  <data name="Acupuncture_Points_3_Tb.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="&gt;&gt;Acupuncture_Points_3_Tb.Name" xml:space="preserve">
-    <value>Acupuncture_Points_3_Tb</value>
-  </data>
-  <data name="&gt;&gt;Acupuncture_Points_3_Tb.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Acupuncture_Points_3_Tb.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Acupuncture_Points_3_Tb.ZOrder" xml:space="preserve">
-    <value>44</value>
-  </data>
-  <data name="Acupuncture_Points_4_Tb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1009, 65</value>
-  </data>
-  <data name="Acupuncture_Points_4_Tb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 22</value>
-  </data>
-  <data name="Acupuncture_Points_4_Tb.TabIndex" type="System.Int32, mscorlib">
-    <value>23</value>
-  </data>
-  <data name="&gt;&gt;Acupuncture_Points_4_Tb.Name" xml:space="preserve">
-    <value>Acupuncture_Points_4_Tb</value>
-  </data>
-  <data name="&gt;&gt;Acupuncture_Points_4_Tb.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Acupuncture_Points_4_Tb.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Acupuncture_Points_4_Tb.ZOrder" xml:space="preserve">
-    <value>43</value>
-  </data>
-  <data name="Acupuncture_Points_5_Tb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1305, 65</value>
-  </data>
-  <data name="Acupuncture_Points_5_Tb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 22</value>
-  </data>
-  <data name="Acupuncture_Points_5_Tb.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
-  </data>
-  <data name="&gt;&gt;Acupuncture_Points_5_Tb.Name" xml:space="preserve">
-    <value>Acupuncture_Points_5_Tb</value>
-  </data>
-  <data name="&gt;&gt;Acupuncture_Points_5_Tb.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Acupuncture_Points_5_Tb.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Acupuncture_Points_5_Tb.ZOrder" xml:space="preserve">
-    <value>42</value>
-  </data>
-  <data name="Acupuncture_Points_6_Tb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>30, 382</value>
-  </data>
-  <data name="Acupuncture_Points_6_Tb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 22</value>
-  </data>
-  <data name="Acupuncture_Points_6_Tb.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="&gt;&gt;Acupuncture_Points_6_Tb.Name" xml:space="preserve">
-    <value>Acupuncture_Points_6_Tb</value>
-  </data>
-  <data name="&gt;&gt;Acupuncture_Points_6_Tb.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Acupuncture_Points_6_Tb.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Acupuncture_Points_6_Tb.ZOrder" xml:space="preserve">
-    <value>41</value>
-  </data>
-  <data name="Acupuncture_Points_7_Tb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>324, 373</value>
-  </data>
-  <data name="Acupuncture_Points_7_Tb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 22</value>
-  </data>
-  <data name="Acupuncture_Points_7_Tb.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="&gt;&gt;Acupuncture_Points_7_Tb.Name" xml:space="preserve">
-    <value>Acupuncture_Points_7_Tb</value>
-  </data>
-  <data name="&gt;&gt;Acupuncture_Points_7_Tb.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Acupuncture_Points_7_Tb.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Acupuncture_Points_7_Tb.ZOrder" xml:space="preserve">
-    <value>40</value>
-  </data>
-  <data name="Acupuncture_Points_8_Tb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>613, 373</value>
-  </data>
-  <data name="Acupuncture_Points_8_Tb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 22</value>
-  </data>
-  <data name="Acupuncture_Points_8_Tb.TabIndex" type="System.Int32, mscorlib">
-    <value>27</value>
-  </data>
-  <data name="&gt;&gt;Acupuncture_Points_8_Tb.Name" xml:space="preserve">
-    <value>Acupuncture_Points_8_Tb</value>
-  </data>
-  <data name="&gt;&gt;Acupuncture_Points_8_Tb.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Acupuncture_Points_8_Tb.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Acupuncture_Points_8_Tb.ZOrder" xml:space="preserve">
-    <value>39</value>
-  </data>
-  <data name="Acupuncture_Points_9_Tb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>909, 373</value>
-  </data>
-  <data name="Acupuncture_Points_9_Tb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 22</value>
-  </data>
-  <data name="Acupuncture_Points_9_Tb.TabIndex" type="System.Int32, mscorlib">
-    <value>28</value>
-  </data>
-  <data name="&gt;&gt;Acupuncture_Points_9_Tb.Name" xml:space="preserve">
-    <value>Acupuncture_Points_9_Tb</value>
-  </data>
-  <data name="&gt;&gt;Acupuncture_Points_9_Tb.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Acupuncture_Points_9_Tb.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Acupuncture_Points_9_Tb.ZOrder" xml:space="preserve">
-    <value>38</value>
-  </data>
-  <data name="Acupuncture_Points_10_Tb.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1205, 373</value>
-  </data>
-  <data name="Acupuncture_Points_10_Tb.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 22</value>
-  </data>
-  <data name="Acupuncture_Points_10_Tb.TabIndex" type="System.Int32, mscorlib">
-    <value>29</value>
-  </data>
-  <data name="&gt;&gt;Acupuncture_Points_10_Tb.Name" xml:space="preserve">
-    <value>Acupuncture_Points_10_Tb</value>
-  </data>
-  <data name="&gt;&gt;Acupuncture_Points_10_Tb.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Acupuncture_Points_10_Tb.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Acupuncture_Points_10_Tb.ZOrder" xml:space="preserve">
     <value>37</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>90, 99</value>
+    <value>90, 62</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>38, 12</value>
@@ -630,7 +420,7 @@
     <value>True</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>380, 99</value>
+    <value>380, 62</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>38, 12</value>
@@ -660,7 +450,7 @@
     <value>Times New Roman, 9pt</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>674, 99</value>
+    <value>674, 62</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
     <value>40, 15</value>
@@ -687,7 +477,7 @@
     <value>True</value>
   </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>961, 99</value>
+    <value>961, 62</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>38, 12</value>
@@ -714,7 +504,7 @@
     <value>True</value>
   </data>
   <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1249, 99</value>
+    <value>1249, 62</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
     <value>38, 12</value>
@@ -741,7 +531,7 @@
     <value>True</value>
   </data>
   <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>90, 407</value>
+    <value>90, 370</value>
   </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
     <value>38, 12</value>
@@ -768,7 +558,7 @@
     <value>True</value>
   </data>
   <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>381, 407</value>
+    <value>381, 370</value>
   </data>
   <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
     <value>38, 12</value>
@@ -795,7 +585,7 @@
     <value>True</value>
   </data>
   <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>672, 409</value>
+    <value>672, 372</value>
   </data>
   <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
     <value>38, 12</value>
@@ -822,7 +612,7 @@
     <value>True</value>
   </data>
   <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>961, 407</value>
+    <value>961, 370</value>
   </data>
   <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
     <value>38, 12</value>
@@ -849,7 +639,7 @@
     <value>True</value>
   </data>
   <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1243, 407</value>
+    <value>1243, 370</value>
   </data>
   <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
     <value>38, 12</value>
@@ -925,7 +715,7 @@
     <value>Center</value>
   </data>
   <data name="Acupuncture_Points_1_Chart.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 118</value>
+    <value>21, 81</value>
   </data>
   <data name="Acupuncture_Points_1_Chart.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 228</value>
@@ -952,7 +742,7 @@
     <value>Center</value>
   </data>
   <data name="Acupuncture_Points_2_Chart.Location" type="System.Drawing.Point, System.Drawing">
-    <value>312, 118</value>
+    <value>312, 81</value>
   </data>
   <data name="Acupuncture_Points_2_Chart.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 228</value>
@@ -979,7 +769,7 @@
     <value>Center</value>
   </data>
   <data name="Acupuncture_Points_3_Chart.Location" type="System.Drawing.Point, System.Drawing">
-    <value>603, 118</value>
+    <value>603, 81</value>
   </data>
   <data name="Acupuncture_Points_3_Chart.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 228</value>
@@ -1006,7 +796,7 @@
     <value>Center</value>
   </data>
   <data name="Acupuncture_Points_4_Chart.Location" type="System.Drawing.Point, System.Drawing">
-    <value>894, 118</value>
+    <value>894, 81</value>
   </data>
   <data name="Acupuncture_Points_4_Chart.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 228</value>
@@ -1033,7 +823,7 @@
     <value>Center</value>
   </data>
   <data name="Acupuncture_Points_5_Chart.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1185, 118</value>
+    <value>1185, 81</value>
   </data>
   <data name="Acupuncture_Points_5_Chart.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 228</value>
@@ -1060,7 +850,7 @@
     <value>Center</value>
   </data>
   <data name="Acupuncture_Points_10_Chart.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1185, 429</value>
+    <value>1185, 392</value>
   </data>
   <data name="Acupuncture_Points_10_Chart.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 228</value>
@@ -1087,7 +877,7 @@
     <value>Center</value>
   </data>
   <data name="Acupuncture_Points_9_Chart.Location" type="System.Drawing.Point, System.Drawing">
-    <value>894, 429</value>
+    <value>894, 392</value>
   </data>
   <data name="Acupuncture_Points_9_Chart.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 228</value>
@@ -1114,7 +904,7 @@
     <value>Center</value>
   </data>
   <data name="Acupuncture_Points_8_Chart.Location" type="System.Drawing.Point, System.Drawing">
-    <value>603, 429</value>
+    <value>603, 392</value>
   </data>
   <data name="Acupuncture_Points_8_Chart.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 228</value>
@@ -1141,7 +931,7 @@
     <value>Center</value>
   </data>
   <data name="Acupuncture_Points_7_Chart.Location" type="System.Drawing.Point, System.Drawing">
-    <value>312, 429</value>
+    <value>312, 392</value>
   </data>
   <data name="Acupuncture_Points_7_Chart.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 228</value>
@@ -1168,7 +958,7 @@
     <value>Center</value>
   </data>
   <data name="Acupuncture_Points_6_Chart.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 429</value>
+    <value>21, 392</value>
   </data>
   <data name="Acupuncture_Points_6_Chart.Size" type="System.Drawing.Size, System.Drawing">
     <value>285, 228</value>
@@ -1314,11 +1104,23 @@
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="saveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 22</value>
+  </data>
+  <data name="saveToolStripMenuItem.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 20</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
   <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
   <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1478, 24</value>
+    <value>1495, 24</value>
   </data>
   <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
     <value>58</value>
@@ -1336,22 +1138,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
-    <value>57</value>
-  </data>
-  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 20</value>
-  </data>
-  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
-    <value>File</value>
-  </data>
-  <data name="saveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>103, 22</value>
-  </data>
-  <data name="saveToolStripMenuItem.Text" xml:space="preserve">
-    <value>Save</value>
+    <value>47</value>
   </data>
   <data name="Acupuncture_Points_1_Combobox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>129, 94</value>
+    <value>129, 57</value>
   </data>
   <data name="Acupuncture_Points_1_Combobox.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 20</value>
@@ -1372,7 +1162,7 @@
     <value>9</value>
   </data>
   <data name="Acupuncture_Points_2_Combobox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>422, 95</value>
+    <value>422, 58</value>
   </data>
   <data name="Acupuncture_Points_2_Combobox.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 20</value>
@@ -1393,7 +1183,7 @@
     <value>8</value>
   </data>
   <data name="Acupuncture_Points_3_Combobox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>713, 96</value>
+    <value>713, 59</value>
   </data>
   <data name="Acupuncture_Points_3_Combobox.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 20</value>
@@ -1414,7 +1204,7 @@
     <value>7</value>
   </data>
   <data name="Acupuncture_Points_4_Combobox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1000, 94</value>
+    <value>1000, 57</value>
   </data>
   <data name="Acupuncture_Points_4_Combobox.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 20</value>
@@ -1435,7 +1225,7 @@
     <value>6</value>
   </data>
   <data name="Acupuncture_Points_5_Combobox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1288, 95</value>
+    <value>1288, 58</value>
   </data>
   <data name="Acupuncture_Points_5_Combobox.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 20</value>
@@ -1456,7 +1246,7 @@
     <value>5</value>
   </data>
   <data name="Acupuncture_Points_6_Combobox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>129, 403</value>
+    <value>129, 366</value>
   </data>
   <data name="Acupuncture_Points_6_Combobox.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 20</value>
@@ -1477,7 +1267,7 @@
     <value>4</value>
   </data>
   <data name="Acupuncture_Points_7_Combobox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>422, 402</value>
+    <value>422, 365</value>
   </data>
   <data name="Acupuncture_Points_7_Combobox.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 20</value>
@@ -1498,7 +1288,7 @@
     <value>3</value>
   </data>
   <data name="Acupuncture_Points_8_Combobox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>713, 404</value>
+    <value>713, 367</value>
   </data>
   <data name="Acupuncture_Points_8_Combobox.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 20</value>
@@ -1519,7 +1309,7 @@
     <value>2</value>
   </data>
   <data name="Acupuncture_Points_9_Combobox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1000, 404</value>
+    <value>1000, 367</value>
   </data>
   <data name="Acupuncture_Points_9_Combobox.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 20</value>
@@ -1540,7 +1330,7 @@
     <value>1</value>
   </data>
   <data name="Acupuncture_Points_10_Combobox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1288, 402</value>
+    <value>1288, 365</value>
   </data>
   <data name="Acupuncture_Points_10_Combobox.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 20</value>
@@ -1560,6 +1350,9 @@
   <data name="&gt;&gt;Acupuncture_Points_10_Combobox.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <metadata name="saveFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>136, 17</value>
+  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -1592,6 +1385,12 @@
   </data>
   <data name="&gt;&gt;saveToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveFileDialog1.Name" xml:space="preserve">
+    <value>saveFileDialog1</value>
+  </data>
+  <data name="&gt;&gt;saveFileDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Form1</value>

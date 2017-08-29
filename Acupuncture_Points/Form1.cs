@@ -20,16 +20,17 @@ namespace Acupuncture_Points
         private const int Btn_Size = 10;
         private const int File_Field = 2;
         private const int PortData_Size = 150;
+        private const int ConboBox_Item_Size = 32;
 
         private String[] File = new String[File_Field];
         private List<int> PortData = new List<int>();
 
-        private System.Windows.Forms.TextBox[] Tb;
+        private System.Windows.Forms.ComboBox[] Acupuncture_Points_ComboBox;
         private System.Windows.Forms.Button[] Btn;
         private System.Windows.Forms.DataVisualization.Charting.Chart[] Chart;
 
         private SerialPort port;
-        
+
         delegate void UpdateChart(List<int> list);
         delegate void UpdateChart_single(int data);
 
@@ -40,10 +41,9 @@ namespace Acupuncture_Points
         private Excel.Worksheet WSheet;
         //private Excel.Range WRange;
 
-        private int index;
+        private String[] ComboBox_Item = new String[ConboBox_Item_Size];
 
-        //private bool Flag = false;
-        //StreamWriter File_Stream_Writer;
+        private int index;
 
         private int This_Width;
         private int This_Height;
@@ -63,10 +63,10 @@ namespace Acupuncture_Points
 
             foreach (String item in All_Port)
                 ComPort_Combobox.Items.Add(item);
-
-            Tb = new System.Windows.Forms.TextBox[Btn_Size]
-            {Acupuncture_Points_1_Tb, Acupuncture_Points_2_Tb, Acupuncture_Points_3_Tb, Acupuncture_Points_4_Tb, Acupuncture_Points_5_Tb,
-             Acupuncture_Points_6_Tb, Acupuncture_Points_7_Tb, Acupuncture_Points_8_Tb, Acupuncture_Points_9_Tb, Acupuncture_Points_10_Tb};
+            
+            Acupuncture_Points_ComboBox = new System.Windows.Forms.ComboBox[Btn_Size]
+            {Acupuncture_Points_1_Combobox,Acupuncture_Points_2_Combobox,Acupuncture_Points_3_Combobox,Acupuncture_Points_4_Combobox,Acupuncture_Points_5_Combobox,
+             Acupuncture_Points_6_Combobox,Acupuncture_Points_7_Combobox,Acupuncture_Points_8_Combobox,Acupuncture_Points_9_Combobox,Acupuncture_Points_10_Combobox};
 
             Btn = new System.Windows.Forms.Button[Btn_Size]
                 { Acupuncture_Points_1_Btn, Acupuncture_Points_2_Btn, Acupuncture_Points_3_Btn, Acupuncture_Points_4_Btn, Acupuncture_Points_5_Btn,
@@ -76,15 +76,28 @@ namespace Acupuncture_Points
                 { Acupuncture_Points_1_Chart, Acupuncture_Points_2_Chart, Acupuncture_Points_3_Chart, Acupuncture_Points_4_Chart, Acupuncture_Points_5_Chart,
                   Acupuncture_Points_6_Chart, Acupuncture_Points_7_Chart, Acupuncture_Points_8_Chart, Acupuncture_Points_9_Chart, Acupuncture_Points_10_Chart};
 
-            for (int i = 0; i < Btn_Size; i++)
+//================================================================ Add ComboBox Items ============================================================================
+            for (int i = 1; i < 7; i++)
             {
-                Btn[i].Enabled = false;
-                Tb[i].Enabled = false;
+                for (int j = 0; j < Btn_Size; j++)
+                {
+                    Acupuncture_Points_ComboBox[j].Items.Add("LH0" + i);
+                    Acupuncture_Points_ComboBox[j].Items.Add("LF0" + i);
+                    Acupuncture_Points_ComboBox[j].Items.Add("RH0" + i);
+                    Acupuncture_Points_ComboBox[j].Items.Add("RF0" + i);
+
+                    if( i < 5 )
+                    {
+                        Acupuncture_Points_ComboBox[j].Items.Add("LS0" + i);
+                        Acupuncture_Points_ComboBox[j].Items.Add("RS0" + i);
+                    }
+                }
             }
+//================================================================================================================================================================
+            for (int i = 0; i < Btn_Size; i++)
+                Btn[i].Enabled = false;
 
             ExcelApp = new Excel.Application();
-            //ExcelApp.Visible = true;
-            //ExcelApp.DisplayAlerts = false;
             ExcelApp.Workbooks.Add(true);
             WBook = ExcelApp.Workbooks[1];
             WBook.Activate();
@@ -94,55 +107,15 @@ namespace Acupuncture_Points
 
             WSheet.Activate();
         }
-
-        /*
-        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            if (File_Stream_Writer != null)
-                File_Stream_Writer.Close();
-            port.Close();
-            throw new NotImplementedException();
-            //Environment.Exit(Environment.ExitCode);
-        }*/
-
         void producer()
         {
             port.BaseStream.Flush();
             PortData.Clear();
 
-            /*
-            File_Stream_Writer.WriteLine("穴位名 : " + Tb[index].Text);
-
-            File_Stream_Writer.Write("\r\n");
-            */
-
             for (int i = 0; i < PortData_Size; i++)
                 UpdateChartsingle(port.ReadByte());
             Excel_Col++;
             Excel_Row = 1;
-            /*
-            int counter = 0;
-
-            do
-            {
-                if(counter != 0)
-                {
-                    SetupChart();
-                    port.Write("R");
-                    MessageBox.Show("資料傳輸有誤，正在重新擷取中，請等候...");
-                }
-
-                for (int i = 0; i < PortData_Size; i++)
-                    UpdateChartsingle(port.ReadByte());
-                counter++;
-            } while (Flag == true);
-
-            Flag = false;
-            
-
-            File_Stream_Writer.Write("\r\n");
-            File_Stream_Writer.Write("\r\n");
-            */
         }
         private void UpdateChartsingle(int data)
         {
@@ -153,10 +126,6 @@ namespace Acupuncture_Points
             }
             else
             {
-                //if (data <= 0)
-                //    Flag = true;
-                //File_Stream_Writer.Write(data);
-                //File_Stream_Writer.Write(' ');
                 ExcelApp.Cells[Excel_Row++, Excel_Col] = data;
                 PortData.Add(data);
                 Chart[index].Series[0].Points.AddY(data);
@@ -179,22 +148,14 @@ namespace Acupuncture_Points
                 {
                     MessageBox.Show(io.ToString());
                 }
-                /*
-                File[0] = FileName_Tb.Text;
-                File[1] = Acupuncture_Points_Count_Tb.Text;
-
-                File_Stream_Writer = new StreamWriter(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory) + "\\" + File[0] + ".txt");
-                */
 
                 FileName_Tb.Enabled = false;
                 
                 Acupuncture_Points_Count_Tb.Enabled = false;
 
                 for (int i = 0; i < Convert.ToInt16(Acupuncture_Points_Count_Tb.Text); i++)
-                {
                     Btn[i].Enabled = true;
-                    Tb[i].Enabled = true;
-                }
+
                 Ok_Btn.Enabled = false;
                 this.saveToolStripMenuItem.Enabled = true;
             }
@@ -245,10 +206,9 @@ namespace Acupuncture_Points
         {
             Button Button = (Button)sender;
             Get_Btn_Index(Button);
-            if (Tb[index].Text != "")
+            if (Acupuncture_Points_ComboBox[index].Text != "")
             {
-                ExcelApp.Cells[Excel_Row++, Excel_Col] = Tb[index].Text;
-                Tb[index].Enabled = false;
+                ExcelApp.Cells[Excel_Row++, Excel_Col] = Acupuncture_Points_ComboBox[index].GetItemText(Acupuncture_Points_ComboBox[index].Text);
                 SetupChart();
                 port.Write("S");
                 PrintCahrt = new Thread(new ThreadStart(this.producer));
@@ -264,26 +224,41 @@ namespace Acupuncture_Points
             
             this.Width = This_Width - This_Width / 4;
             this.Height = This_Height - This_Height / 4;
-            /*
-            for (int i = 0; i < Chart.Length ; i++)
-            {
-                Chart[i].Width = This_Width / 5 - 20;
-                Chart[i].Height = This_Height / 5 - 20;
-            }*/
         }
 
         private void saveToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FolderBrowserDialog dlg = new FolderBrowserDialog();
-            if (dlg.ShowDialog() == DialogResult.OK)
+            saveFileDialog1.DefaultExt = ".xlsx";
+
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
             {
-                String Path = dlg.SelectedPath;
-                
+                /*
                 if (Path.EndsWith("\\"))
                     WBook.SaveCopyAs(Path + FileName_Tb.Text + ".xlsx");
                 else
                     WBook.SaveCopyAs(Path + "\\" + FileName_Tb.Text + ".xlsx");
+                */
+                WBook.SaveCopyAs(saveFileDialog1.FileName.ToString());
                 MessageBox.Show("Excel檔案新增成功", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+        private void Get_ComboBox_Index(ComboBox combobox)
+        {
+            for (int i = 0; i < Btn.Length; i++)
+            {
+                if (combobox.Name.Equals(Acupuncture_Points_ComboBox[i].Name))
+                    index = i;
+            }
+        }
+        private void Combobox_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Return)
+            {
+                ComboBox combobox = (ComboBox)sender;
+                //foreach (ComboBox i in Acupuncture_Points_ComboBox)
+                //    i.Items.Add(combobox.Text);
+                Get_ComboBox_Index(combobox);
+                combobox.Items.Add(combobox.Text);
             }
         }
     }

@@ -29,36 +29,36 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea41 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend41 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series41 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea42 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend42 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series42 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea43 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend43 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series43 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea44 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend44 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series44 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea45 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend45 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series45 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea46 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend46 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series46 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea47 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend47 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series47 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea48 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend48 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series48 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea49 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend49 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series49 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea50 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend50 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series50 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea7 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend7 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea8 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend8 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea9 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend9 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea10 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend10 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series10 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.Acupuncture_Points_1_Btn = new System.Windows.Forms.Button();
             this.Acupuncture_Points_2_Btn = new System.Windows.Forms.Button();
             this.Acupuncture_Points_3_Btn = new System.Windows.Forms.Button();
@@ -106,6 +106,19 @@
             this.Ok_Btn = new System.Windows.Forms.Button();
             this.ComPort_Combobox = new System.Windows.Forms.ComboBox();
             this.label13 = new System.Windows.Forms.Label();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.comboBox6 = new System.Windows.Forms.ComboBox();
+            this.comboBox7 = new System.Windows.Forms.ComboBox();
+            this.comboBox8 = new System.Windows.Forms.ComboBox();
+            this.comboBox9 = new System.Windows.Forms.ComboBox();
+            this.comboBox10 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.Acupuncture_Points_1_Chart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Acupuncture_Points_2_Chart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Acupuncture_Points_3_Chart)).BeginInit();
@@ -116,6 +129,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.Acupuncture_Points_8_Chart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Acupuncture_Points_7_Chart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Acupuncture_Points_6_Chart)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // Acupuncture_Points_1_Btn
@@ -307,201 +321,201 @@
             this.Acupuncture_Points_1_Chart.BorderlineColor = System.Drawing.Color.Transparent;
             this.Acupuncture_Points_1_Chart.BorderSkin.BackImageTransparentColor = System.Drawing.Color.Transparent;
             this.Acupuncture_Points_1_Chart.BorderSkin.PageColor = System.Drawing.Color.Transparent;
-            chartArea41.AxisX.LabelAutoFitMaxFontSize = 7;
-            chartArea41.AxisY.LabelAutoFitMaxFontSize = 7;
-            chartArea41.BackColor = System.Drawing.Color.Transparent;
-            chartArea41.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.Center;
-            chartArea41.BackHatchStyle = System.Windows.Forms.DataVisualization.Charting.ChartHatchStyle.DarkUpwardDiagonal;
-            chartArea41.Name = "ChartArea1";
-            this.Acupuncture_Points_1_Chart.ChartAreas.Add(chartArea41);
-            legend41.Enabled = false;
-            legend41.Name = "Legend1";
-            this.Acupuncture_Points_1_Chart.Legends.Add(legend41);
+            chartArea1.AxisX.LabelAutoFitMaxFontSize = 7;
+            chartArea1.AxisY.LabelAutoFitMaxFontSize = 7;
+            chartArea1.BackColor = System.Drawing.Color.Transparent;
+            chartArea1.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.Center;
+            chartArea1.BackHatchStyle = System.Windows.Forms.DataVisualization.Charting.ChartHatchStyle.DarkUpwardDiagonal;
+            chartArea1.Name = "ChartArea1";
+            this.Acupuncture_Points_1_Chart.ChartAreas.Add(chartArea1);
+            legend1.Enabled = false;
+            legend1.Name = "Legend1";
+            this.Acupuncture_Points_1_Chart.Legends.Add(legend1);
             this.Acupuncture_Points_1_Chart.Name = "Acupuncture_Points_1_Chart";
-            series41.ChartArea = "ChartArea1";
-            series41.Legend = "Legend1";
-            series41.Name = "Series1";
-            this.Acupuncture_Points_1_Chart.Series.Add(series41);
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.Acupuncture_Points_1_Chart.Series.Add(series1);
             // 
             // Acupuncture_Points_2_Chart
             // 
             this.Acupuncture_Points_2_Chart.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.Acupuncture_Points_2_Chart, "Acupuncture_Points_2_Chart");
-            chartArea42.AxisX.LabelAutoFitMaxFontSize = 7;
-            chartArea42.AxisY.LabelAutoFitMaxFontSize = 7;
-            chartArea42.BackColor = System.Drawing.Color.Transparent;
-            chartArea42.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.Center;
-            chartArea42.BackHatchStyle = System.Windows.Forms.DataVisualization.Charting.ChartHatchStyle.DarkUpwardDiagonal;
-            chartArea42.Name = "ChartArea1";
-            this.Acupuncture_Points_2_Chart.ChartAreas.Add(chartArea42);
-            legend42.Enabled = false;
-            legend42.Name = "Legend1";
-            this.Acupuncture_Points_2_Chart.Legends.Add(legend42);
+            chartArea2.AxisX.LabelAutoFitMaxFontSize = 7;
+            chartArea2.AxisY.LabelAutoFitMaxFontSize = 7;
+            chartArea2.BackColor = System.Drawing.Color.Transparent;
+            chartArea2.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.Center;
+            chartArea2.BackHatchStyle = System.Windows.Forms.DataVisualization.Charting.ChartHatchStyle.DarkUpwardDiagonal;
+            chartArea2.Name = "ChartArea1";
+            this.Acupuncture_Points_2_Chart.ChartAreas.Add(chartArea2);
+            legend2.Enabled = false;
+            legend2.Name = "Legend1";
+            this.Acupuncture_Points_2_Chart.Legends.Add(legend2);
             this.Acupuncture_Points_2_Chart.Name = "Acupuncture_Points_2_Chart";
-            series42.ChartArea = "ChartArea1";
-            series42.Legend = "Legend1";
-            series42.Name = "Series1";
-            this.Acupuncture_Points_2_Chart.Series.Add(series42);
+            series2.ChartArea = "ChartArea1";
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            this.Acupuncture_Points_2_Chart.Series.Add(series2);
             // 
             // Acupuncture_Points_3_Chart
             // 
             this.Acupuncture_Points_3_Chart.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.Acupuncture_Points_3_Chart, "Acupuncture_Points_3_Chart");
-            chartArea43.AxisX.LabelAutoFitMaxFontSize = 7;
-            chartArea43.AxisY.LabelAutoFitMaxFontSize = 7;
-            chartArea43.BackColor = System.Drawing.Color.Transparent;
-            chartArea43.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.Center;
-            chartArea43.BackHatchStyle = System.Windows.Forms.DataVisualization.Charting.ChartHatchStyle.DarkUpwardDiagonal;
-            chartArea43.Name = "ChartArea1";
-            this.Acupuncture_Points_3_Chart.ChartAreas.Add(chartArea43);
-            legend43.Enabled = false;
-            legend43.Name = "Legend1";
-            this.Acupuncture_Points_3_Chart.Legends.Add(legend43);
+            chartArea3.AxisX.LabelAutoFitMaxFontSize = 7;
+            chartArea3.AxisY.LabelAutoFitMaxFontSize = 7;
+            chartArea3.BackColor = System.Drawing.Color.Transparent;
+            chartArea3.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.Center;
+            chartArea3.BackHatchStyle = System.Windows.Forms.DataVisualization.Charting.ChartHatchStyle.DarkUpwardDiagonal;
+            chartArea3.Name = "ChartArea1";
+            this.Acupuncture_Points_3_Chart.ChartAreas.Add(chartArea3);
+            legend3.Enabled = false;
+            legend3.Name = "Legend1";
+            this.Acupuncture_Points_3_Chart.Legends.Add(legend3);
             this.Acupuncture_Points_3_Chart.Name = "Acupuncture_Points_3_Chart";
-            series43.ChartArea = "ChartArea1";
-            series43.Legend = "Legend1";
-            series43.Name = "Series1";
-            this.Acupuncture_Points_3_Chart.Series.Add(series43);
+            series3.ChartArea = "ChartArea1";
+            series3.Legend = "Legend1";
+            series3.Name = "Series1";
+            this.Acupuncture_Points_3_Chart.Series.Add(series3);
             // 
             // Acupuncture_Points_4_Chart
             // 
             this.Acupuncture_Points_4_Chart.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.Acupuncture_Points_4_Chart, "Acupuncture_Points_4_Chart");
-            chartArea44.AxisX.LabelAutoFitMaxFontSize = 7;
-            chartArea44.AxisY.LabelAutoFitMaxFontSize = 7;
-            chartArea44.BackColor = System.Drawing.Color.Transparent;
-            chartArea44.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.Center;
-            chartArea44.BackHatchStyle = System.Windows.Forms.DataVisualization.Charting.ChartHatchStyle.DarkUpwardDiagonal;
-            chartArea44.Name = "ChartArea1";
-            this.Acupuncture_Points_4_Chart.ChartAreas.Add(chartArea44);
-            legend44.Enabled = false;
-            legend44.Name = "Legend1";
-            this.Acupuncture_Points_4_Chart.Legends.Add(legend44);
+            chartArea4.AxisX.LabelAutoFitMaxFontSize = 7;
+            chartArea4.AxisY.LabelAutoFitMaxFontSize = 7;
+            chartArea4.BackColor = System.Drawing.Color.Transparent;
+            chartArea4.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.Center;
+            chartArea4.BackHatchStyle = System.Windows.Forms.DataVisualization.Charting.ChartHatchStyle.DarkUpwardDiagonal;
+            chartArea4.Name = "ChartArea1";
+            this.Acupuncture_Points_4_Chart.ChartAreas.Add(chartArea4);
+            legend4.Enabled = false;
+            legend4.Name = "Legend1";
+            this.Acupuncture_Points_4_Chart.Legends.Add(legend4);
             this.Acupuncture_Points_4_Chart.Name = "Acupuncture_Points_4_Chart";
-            series44.ChartArea = "ChartArea1";
-            series44.Legend = "Legend1";
-            series44.Name = "Series1";
-            this.Acupuncture_Points_4_Chart.Series.Add(series44);
+            series4.ChartArea = "ChartArea1";
+            series4.Legend = "Legend1";
+            series4.Name = "Series1";
+            this.Acupuncture_Points_4_Chart.Series.Add(series4);
             // 
             // Acupuncture_Points_5_Chart
             // 
             this.Acupuncture_Points_5_Chart.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.Acupuncture_Points_5_Chart, "Acupuncture_Points_5_Chart");
-            chartArea45.AxisX.LabelAutoFitMaxFontSize = 7;
-            chartArea45.AxisY.LabelAutoFitMaxFontSize = 7;
-            chartArea45.BackColor = System.Drawing.Color.Transparent;
-            chartArea45.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.Center;
-            chartArea45.BackHatchStyle = System.Windows.Forms.DataVisualization.Charting.ChartHatchStyle.DarkUpwardDiagonal;
-            chartArea45.Name = "ChartArea1";
-            this.Acupuncture_Points_5_Chart.ChartAreas.Add(chartArea45);
-            legend45.Enabled = false;
-            legend45.Name = "Legend1";
-            this.Acupuncture_Points_5_Chart.Legends.Add(legend45);
+            chartArea5.AxisX.LabelAutoFitMaxFontSize = 7;
+            chartArea5.AxisY.LabelAutoFitMaxFontSize = 7;
+            chartArea5.BackColor = System.Drawing.Color.Transparent;
+            chartArea5.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.Center;
+            chartArea5.BackHatchStyle = System.Windows.Forms.DataVisualization.Charting.ChartHatchStyle.DarkUpwardDiagonal;
+            chartArea5.Name = "ChartArea1";
+            this.Acupuncture_Points_5_Chart.ChartAreas.Add(chartArea5);
+            legend5.Enabled = false;
+            legend5.Name = "Legend1";
+            this.Acupuncture_Points_5_Chart.Legends.Add(legend5);
             this.Acupuncture_Points_5_Chart.Name = "Acupuncture_Points_5_Chart";
-            series45.ChartArea = "ChartArea1";
-            series45.Legend = "Legend1";
-            series45.Name = "Series1";
-            this.Acupuncture_Points_5_Chart.Series.Add(series45);
+            series5.ChartArea = "ChartArea1";
+            series5.Legend = "Legend1";
+            series5.Name = "Series1";
+            this.Acupuncture_Points_5_Chart.Series.Add(series5);
             // 
             // Acupuncture_Points_10_Chart
             // 
             this.Acupuncture_Points_10_Chart.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.Acupuncture_Points_10_Chart, "Acupuncture_Points_10_Chart");
-            chartArea46.AxisX.LabelAutoFitMaxFontSize = 7;
-            chartArea46.AxisY.LabelAutoFitMaxFontSize = 7;
-            chartArea46.BackColor = System.Drawing.Color.Transparent;
-            chartArea46.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.Center;
-            chartArea46.BackHatchStyle = System.Windows.Forms.DataVisualization.Charting.ChartHatchStyle.DarkUpwardDiagonal;
-            chartArea46.Name = "ChartArea1";
-            this.Acupuncture_Points_10_Chart.ChartAreas.Add(chartArea46);
-            legend46.Enabled = false;
-            legend46.Name = "Legend1";
-            this.Acupuncture_Points_10_Chart.Legends.Add(legend46);
+            chartArea6.AxisX.LabelAutoFitMaxFontSize = 7;
+            chartArea6.AxisY.LabelAutoFitMaxFontSize = 7;
+            chartArea6.BackColor = System.Drawing.Color.Transparent;
+            chartArea6.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.Center;
+            chartArea6.BackHatchStyle = System.Windows.Forms.DataVisualization.Charting.ChartHatchStyle.DarkUpwardDiagonal;
+            chartArea6.Name = "ChartArea1";
+            this.Acupuncture_Points_10_Chart.ChartAreas.Add(chartArea6);
+            legend6.Enabled = false;
+            legend6.Name = "Legend1";
+            this.Acupuncture_Points_10_Chart.Legends.Add(legend6);
             this.Acupuncture_Points_10_Chart.Name = "Acupuncture_Points_10_Chart";
-            series46.ChartArea = "ChartArea1";
-            series46.Legend = "Legend1";
-            series46.Name = "Series1";
-            this.Acupuncture_Points_10_Chart.Series.Add(series46);
+            series6.ChartArea = "ChartArea1";
+            series6.Legend = "Legend1";
+            series6.Name = "Series1";
+            this.Acupuncture_Points_10_Chart.Series.Add(series6);
             // 
             // Acupuncture_Points_9_Chart
             // 
             this.Acupuncture_Points_9_Chart.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.Acupuncture_Points_9_Chart, "Acupuncture_Points_9_Chart");
-            chartArea47.AxisX.LabelAutoFitMaxFontSize = 7;
-            chartArea47.AxisY.LabelAutoFitMaxFontSize = 7;
-            chartArea47.BackColor = System.Drawing.Color.Transparent;
-            chartArea47.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.Center;
-            chartArea47.BackHatchStyle = System.Windows.Forms.DataVisualization.Charting.ChartHatchStyle.DarkUpwardDiagonal;
-            chartArea47.Name = "ChartArea1";
-            this.Acupuncture_Points_9_Chart.ChartAreas.Add(chartArea47);
-            legend47.Enabled = false;
-            legend47.Name = "Legend1";
-            this.Acupuncture_Points_9_Chart.Legends.Add(legend47);
+            chartArea7.AxisX.LabelAutoFitMaxFontSize = 7;
+            chartArea7.AxisY.LabelAutoFitMaxFontSize = 7;
+            chartArea7.BackColor = System.Drawing.Color.Transparent;
+            chartArea7.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.Center;
+            chartArea7.BackHatchStyle = System.Windows.Forms.DataVisualization.Charting.ChartHatchStyle.DarkUpwardDiagonal;
+            chartArea7.Name = "ChartArea1";
+            this.Acupuncture_Points_9_Chart.ChartAreas.Add(chartArea7);
+            legend7.Enabled = false;
+            legend7.Name = "Legend1";
+            this.Acupuncture_Points_9_Chart.Legends.Add(legend7);
             this.Acupuncture_Points_9_Chart.Name = "Acupuncture_Points_9_Chart";
-            series47.ChartArea = "ChartArea1";
-            series47.Legend = "Legend1";
-            series47.Name = "Series1";
-            this.Acupuncture_Points_9_Chart.Series.Add(series47);
+            series7.ChartArea = "ChartArea1";
+            series7.Legend = "Legend1";
+            series7.Name = "Series1";
+            this.Acupuncture_Points_9_Chart.Series.Add(series7);
             // 
             // Acupuncture_Points_8_Chart
             // 
             this.Acupuncture_Points_8_Chart.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.Acupuncture_Points_8_Chart, "Acupuncture_Points_8_Chart");
-            chartArea48.AxisX.LabelAutoFitMaxFontSize = 7;
-            chartArea48.AxisY.LabelAutoFitMaxFontSize = 7;
-            chartArea48.BackColor = System.Drawing.Color.Transparent;
-            chartArea48.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.Center;
-            chartArea48.BackHatchStyle = System.Windows.Forms.DataVisualization.Charting.ChartHatchStyle.DarkUpwardDiagonal;
-            chartArea48.Name = "ChartArea1";
-            this.Acupuncture_Points_8_Chart.ChartAreas.Add(chartArea48);
-            legend48.Enabled = false;
-            legend48.Name = "Legend1";
-            this.Acupuncture_Points_8_Chart.Legends.Add(legend48);
+            chartArea8.AxisX.LabelAutoFitMaxFontSize = 7;
+            chartArea8.AxisY.LabelAutoFitMaxFontSize = 7;
+            chartArea8.BackColor = System.Drawing.Color.Transparent;
+            chartArea8.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.Center;
+            chartArea8.BackHatchStyle = System.Windows.Forms.DataVisualization.Charting.ChartHatchStyle.DarkUpwardDiagonal;
+            chartArea8.Name = "ChartArea1";
+            this.Acupuncture_Points_8_Chart.ChartAreas.Add(chartArea8);
+            legend8.Enabled = false;
+            legend8.Name = "Legend1";
+            this.Acupuncture_Points_8_Chart.Legends.Add(legend8);
             this.Acupuncture_Points_8_Chart.Name = "Acupuncture_Points_8_Chart";
-            series48.ChartArea = "ChartArea1";
-            series48.Legend = "Legend1";
-            series48.Name = "Series1";
-            this.Acupuncture_Points_8_Chart.Series.Add(series48);
+            series8.ChartArea = "ChartArea1";
+            series8.Legend = "Legend1";
+            series8.Name = "Series1";
+            this.Acupuncture_Points_8_Chart.Series.Add(series8);
             // 
             // Acupuncture_Points_7_Chart
             // 
             this.Acupuncture_Points_7_Chart.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.Acupuncture_Points_7_Chart, "Acupuncture_Points_7_Chart");
-            chartArea49.AxisX.LabelAutoFitMaxFontSize = 7;
-            chartArea49.AxisY.LabelAutoFitMaxFontSize = 7;
-            chartArea49.BackColor = System.Drawing.Color.Transparent;
-            chartArea49.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.Center;
-            chartArea49.BackHatchStyle = System.Windows.Forms.DataVisualization.Charting.ChartHatchStyle.DarkUpwardDiagonal;
-            chartArea49.Name = "ChartArea1";
-            this.Acupuncture_Points_7_Chart.ChartAreas.Add(chartArea49);
-            legend49.Enabled = false;
-            legend49.Name = "Legend1";
-            this.Acupuncture_Points_7_Chart.Legends.Add(legend49);
+            chartArea9.AxisX.LabelAutoFitMaxFontSize = 7;
+            chartArea9.AxisY.LabelAutoFitMaxFontSize = 7;
+            chartArea9.BackColor = System.Drawing.Color.Transparent;
+            chartArea9.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.Center;
+            chartArea9.BackHatchStyle = System.Windows.Forms.DataVisualization.Charting.ChartHatchStyle.DarkUpwardDiagonal;
+            chartArea9.Name = "ChartArea1";
+            this.Acupuncture_Points_7_Chart.ChartAreas.Add(chartArea9);
+            legend9.Enabled = false;
+            legend9.Name = "Legend1";
+            this.Acupuncture_Points_7_Chart.Legends.Add(legend9);
             this.Acupuncture_Points_7_Chart.Name = "Acupuncture_Points_7_Chart";
-            series49.ChartArea = "ChartArea1";
-            series49.Legend = "Legend1";
-            series49.Name = "Series1";
-            this.Acupuncture_Points_7_Chart.Series.Add(series49);
+            series9.ChartArea = "ChartArea1";
+            series9.Legend = "Legend1";
+            series9.Name = "Series1";
+            this.Acupuncture_Points_7_Chart.Series.Add(series9);
             // 
             // Acupuncture_Points_6_Chart
             // 
             this.Acupuncture_Points_6_Chart.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.Acupuncture_Points_6_Chart, "Acupuncture_Points_6_Chart");
-            chartArea50.AxisX.LabelAutoFitMaxFontSize = 7;
-            chartArea50.AxisY.LabelAutoFitMaxFontSize = 7;
-            chartArea50.BackColor = System.Drawing.Color.Transparent;
-            chartArea50.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.Center;
-            chartArea50.BackHatchStyle = System.Windows.Forms.DataVisualization.Charting.ChartHatchStyle.DarkUpwardDiagonal;
-            chartArea50.Name = "ChartArea1";
-            this.Acupuncture_Points_6_Chart.ChartAreas.Add(chartArea50);
-            legend50.Enabled = false;
-            legend50.Name = "Legend1";
-            this.Acupuncture_Points_6_Chart.Legends.Add(legend50);
+            chartArea10.AxisX.LabelAutoFitMaxFontSize = 7;
+            chartArea10.AxisY.LabelAutoFitMaxFontSize = 7;
+            chartArea10.BackColor = System.Drawing.Color.Transparent;
+            chartArea10.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.Center;
+            chartArea10.BackHatchStyle = System.Windows.Forms.DataVisualization.Charting.ChartHatchStyle.DarkUpwardDiagonal;
+            chartArea10.Name = "ChartArea1";
+            this.Acupuncture_Points_6_Chart.ChartAreas.Add(chartArea10);
+            legend10.Enabled = false;
+            legend10.Name = "Legend1";
+            this.Acupuncture_Points_6_Chart.Legends.Add(legend10);
             this.Acupuncture_Points_6_Chart.Name = "Acupuncture_Points_6_Chart";
-            series50.ChartArea = "ChartArea1";
-            series50.Legend = "Legend1";
-            series50.Name = "Series1";
-            this.Acupuncture_Points_6_Chart.Series.Add(series50);
+            series10.ChartArea = "ChartArea1";
+            series10.Legend = "Legend1";
+            series10.Name = "Series1";
+            this.Acupuncture_Points_6_Chart.Series.Add(series10);
             // 
             // label12
             // 
@@ -531,10 +545,102 @@
             resources.ApplyResources(this.label13, "label13");
             this.label13.Name = "label13";
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.BackColor = System.Drawing.Color.Transparent;
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fileToolStripMenuItem});
+            resources.ApplyResources(this.menuStrip1, "menuStrip1");
+            this.menuStrip1.Name = "menuStrip1";
+            // 
+            // fileToolStripMenuItem
+            // 
+            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.saveToolStripMenuItem});
+            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
+            resources.ApplyResources(this.fileToolStripMenuItem, "fileToolStripMenuItem");
+            // 
+            // saveToolStripMenuItem
+            // 
+            this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
+            resources.ApplyResources(this.saveToolStripMenuItem, "saveToolStripMenuItem");
+            this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            resources.ApplyResources(this.comboBox1, "comboBox1");
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.comboBox1_KeyUp);
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            resources.ApplyResources(this.comboBox2, "comboBox2");
+            this.comboBox2.Name = "comboBox2";
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            resources.ApplyResources(this.comboBox3, "comboBox3");
+            this.comboBox3.Name = "comboBox3";
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.FormattingEnabled = true;
+            resources.ApplyResources(this.comboBox4, "comboBox4");
+            this.comboBox4.Name = "comboBox4";
+            // 
+            // comboBox5
+            // 
+            this.comboBox5.FormattingEnabled = true;
+            resources.ApplyResources(this.comboBox5, "comboBox5");
+            this.comboBox5.Name = "comboBox5";
+            // 
+            // comboBox6
+            // 
+            this.comboBox6.FormattingEnabled = true;
+            resources.ApplyResources(this.comboBox6, "comboBox6");
+            this.comboBox6.Name = "comboBox6";
+            // 
+            // comboBox7
+            // 
+            this.comboBox7.FormattingEnabled = true;
+            resources.ApplyResources(this.comboBox7, "comboBox7");
+            this.comboBox7.Name = "comboBox7";
+            // 
+            // comboBox8
+            // 
+            this.comboBox8.FormattingEnabled = true;
+            resources.ApplyResources(this.comboBox8, "comboBox8");
+            this.comboBox8.Name = "comboBox8";
+            // 
+            // comboBox9
+            // 
+            this.comboBox9.FormattingEnabled = true;
+            resources.ApplyResources(this.comboBox9, "comboBox9");
+            this.comboBox9.Name = "comboBox9";
+            // 
+            // comboBox10
+            // 
+            this.comboBox10.FormattingEnabled = true;
+            resources.ApplyResources(this.comboBox10, "comboBox10");
+            this.comboBox10.Name = "comboBox10";
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.comboBox10);
+            this.Controls.Add(this.comboBox9);
+            this.Controls.Add(this.comboBox8);
+            this.Controls.Add(this.comboBox7);
+            this.Controls.Add(this.comboBox6);
+            this.Controls.Add(this.comboBox5);
+            this.Controls.Add(this.comboBox4);
+            this.Controls.Add(this.comboBox3);
+            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.ComPort_Combobox);
             this.Controls.Add(this.Ok_Btn);
@@ -582,6 +688,8 @@
             this.Controls.Add(this.Acupuncture_Points_3_Btn);
             this.Controls.Add(this.Acupuncture_Points_2_Btn);
             this.Controls.Add(this.Acupuncture_Points_1_Btn);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Acupuncture_Points_1_Chart)).EndInit();
@@ -594,6 +702,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.Acupuncture_Points_8_Chart)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Acupuncture_Points_7_Chart)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Acupuncture_Points_6_Chart)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -647,6 +757,19 @@
         private System.Windows.Forms.Button Ok_Btn;
         private System.Windows.Forms.ComboBox ComPort_Combobox;
         private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem saveToolStripMenuItem;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.ComboBox comboBox5;
+        private System.Windows.Forms.ComboBox comboBox6;
+        private System.Windows.Forms.ComboBox comboBox7;
+        private System.Windows.Forms.ComboBox comboBox8;
+        private System.Windows.Forms.ComboBox comboBox9;
+        private System.Windows.Forms.ComboBox comboBox10;
     }
 }
 

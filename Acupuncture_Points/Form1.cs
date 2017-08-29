@@ -286,11 +286,5 @@ namespace Acupuncture_Points
                 MessageBox.Show("Excel檔案新增成功", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
-
-        private void comboBox1_KeyUp(object sender, KeyEventArgs e)
-        {
-            if(e.KeyCode == Keys.Return)
-                comboBox1.Items.Add(comboBox1.Text);
-        }
     }
 }

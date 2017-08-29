@@ -1314,23 +1314,11 @@
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <data name="saveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>103, 22</value>
-  </data>
-  <data name="saveToolStripMenuItem.Text" xml:space="preserve">
-    <value>Save</value>
-  </data>
-  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 20</value>
-  </data>
-  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
-    <value>File</value>
-  </data>
   <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
   <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1495, 24</value>
+    <value>1478, 24</value>
   </data>
   <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
     <value>58</value>
@@ -1350,214 +1338,226 @@
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
     <value>57</value>
   </data>
-  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 20</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="saveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 22</value>
+  </data>
+  <data name="saveToolStripMenuItem.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Acupuncture_Points_1_Combobox.Location" type="System.Drawing.Point, System.Drawing">
     <value>129, 94</value>
   </data>
-  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Acupuncture_Points_1_Combobox.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 20</value>
   </data>
-  <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
+  <data name="Acupuncture_Points_1_Combobox.TabIndex" type="System.Int32, mscorlib">
     <value>59</value>
   </data>
-  <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
-    <value>comboBox1</value>
+  <data name="&gt;&gt;Acupuncture_Points_1_Combobox.Name" xml:space="preserve">
+    <value>Acupuncture_Points_1_Combobox</value>
   </data>
-  <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
+  <data name="&gt;&gt;Acupuncture_Points_1_Combobox.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Acupuncture_Points_1_Combobox.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Acupuncture_Points_1_Combobox.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="comboBox2.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Acupuncture_Points_2_Combobox.Location" type="System.Drawing.Point, System.Drawing">
     <value>422, 95</value>
   </data>
-  <data name="comboBox2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Acupuncture_Points_2_Combobox.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 20</value>
   </data>
-  <data name="comboBox2.TabIndex" type="System.Int32, mscorlib">
+  <data name="Acupuncture_Points_2_Combobox.TabIndex" type="System.Int32, mscorlib">
     <value>60</value>
   </data>
-  <data name="&gt;&gt;comboBox2.Name" xml:space="preserve">
-    <value>comboBox2</value>
+  <data name="&gt;&gt;Acupuncture_Points_2_Combobox.Name" xml:space="preserve">
+    <value>Acupuncture_Points_2_Combobox</value>
   </data>
-  <data name="&gt;&gt;comboBox2.Type" xml:space="preserve">
+  <data name="&gt;&gt;Acupuncture_Points_2_Combobox.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;comboBox2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Acupuncture_Points_2_Combobox.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;comboBox2.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Acupuncture_Points_2_Combobox.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="comboBox3.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Acupuncture_Points_3_Combobox.Location" type="System.Drawing.Point, System.Drawing">
     <value>713, 96</value>
   </data>
-  <data name="comboBox3.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Acupuncture_Points_3_Combobox.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 20</value>
   </data>
-  <data name="comboBox3.TabIndex" type="System.Int32, mscorlib">
+  <data name="Acupuncture_Points_3_Combobox.TabIndex" type="System.Int32, mscorlib">
     <value>61</value>
   </data>
-  <data name="&gt;&gt;comboBox3.Name" xml:space="preserve">
-    <value>comboBox3</value>
+  <data name="&gt;&gt;Acupuncture_Points_3_Combobox.Name" xml:space="preserve">
+    <value>Acupuncture_Points_3_Combobox</value>
   </data>
-  <data name="&gt;&gt;comboBox3.Type" xml:space="preserve">
+  <data name="&gt;&gt;Acupuncture_Points_3_Combobox.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;comboBox3.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Acupuncture_Points_3_Combobox.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;comboBox3.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Acupuncture_Points_3_Combobox.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="comboBox4.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Acupuncture_Points_4_Combobox.Location" type="System.Drawing.Point, System.Drawing">
     <value>1000, 94</value>
   </data>
-  <data name="comboBox4.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Acupuncture_Points_4_Combobox.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 20</value>
   </data>
-  <data name="comboBox4.TabIndex" type="System.Int32, mscorlib">
+  <data name="Acupuncture_Points_4_Combobox.TabIndex" type="System.Int32, mscorlib">
     <value>62</value>
   </data>
-  <data name="&gt;&gt;comboBox4.Name" xml:space="preserve">
-    <value>comboBox4</value>
+  <data name="&gt;&gt;Acupuncture_Points_4_Combobox.Name" xml:space="preserve">
+    <value>Acupuncture_Points_4_Combobox</value>
   </data>
-  <data name="&gt;&gt;comboBox4.Type" xml:space="preserve">
+  <data name="&gt;&gt;Acupuncture_Points_4_Combobox.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;comboBox4.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Acupuncture_Points_4_Combobox.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;comboBox4.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Acupuncture_Points_4_Combobox.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="comboBox5.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Acupuncture_Points_5_Combobox.Location" type="System.Drawing.Point, System.Drawing">
     <value>1288, 95</value>
   </data>
-  <data name="comboBox5.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Acupuncture_Points_5_Combobox.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 20</value>
   </data>
-  <data name="comboBox5.TabIndex" type="System.Int32, mscorlib">
+  <data name="Acupuncture_Points_5_Combobox.TabIndex" type="System.Int32, mscorlib">
     <value>63</value>
   </data>
-  <data name="&gt;&gt;comboBox5.Name" xml:space="preserve">
-    <value>comboBox5</value>
+  <data name="&gt;&gt;Acupuncture_Points_5_Combobox.Name" xml:space="preserve">
+    <value>Acupuncture_Points_5_Combobox</value>
   </data>
-  <data name="&gt;&gt;comboBox5.Type" xml:space="preserve">
+  <data name="&gt;&gt;Acupuncture_Points_5_Combobox.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;comboBox5.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Acupuncture_Points_5_Combobox.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;comboBox5.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Acupuncture_Points_5_Combobox.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="comboBox6.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Acupuncture_Points_6_Combobox.Location" type="System.Drawing.Point, System.Drawing">
     <value>129, 403</value>
   </data>
-  <data name="comboBox6.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Acupuncture_Points_6_Combobox.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 20</value>
   </data>
-  <data name="comboBox6.TabIndex" type="System.Int32, mscorlib">
+  <data name="Acupuncture_Points_6_Combobox.TabIndex" type="System.Int32, mscorlib">
     <value>64</value>
   </data>
-  <data name="&gt;&gt;comboBox6.Name" xml:space="preserve">
-    <value>comboBox6</value>
+  <data name="&gt;&gt;Acupuncture_Points_6_Combobox.Name" xml:space="preserve">
+    <value>Acupuncture_Points_6_Combobox</value>
   </data>
-  <data name="&gt;&gt;comboBox6.Type" xml:space="preserve">
+  <data name="&gt;&gt;Acupuncture_Points_6_Combobox.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;comboBox6.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Acupuncture_Points_6_Combobox.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;comboBox6.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Acupuncture_Points_6_Combobox.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="comboBox7.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Acupuncture_Points_7_Combobox.Location" type="System.Drawing.Point, System.Drawing">
     <value>422, 402</value>
   </data>
-  <data name="comboBox7.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Acupuncture_Points_7_Combobox.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 20</value>
   </data>
-  <data name="comboBox7.TabIndex" type="System.Int32, mscorlib">
+  <data name="Acupuncture_Points_7_Combobox.TabIndex" type="System.Int32, mscorlib">
     <value>65</value>
   </data>
-  <data name="&gt;&gt;comboBox7.Name" xml:space="preserve">
-    <value>comboBox7</value>
+  <data name="&gt;&gt;Acupuncture_Points_7_Combobox.Name" xml:space="preserve">
+    <value>Acupuncture_Points_7_Combobox</value>
   </data>
-  <data name="&gt;&gt;comboBox7.Type" xml:space="preserve">
+  <data name="&gt;&gt;Acupuncture_Points_7_Combobox.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;comboBox7.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Acupuncture_Points_7_Combobox.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;comboBox7.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Acupuncture_Points_7_Combobox.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="comboBox8.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Acupuncture_Points_8_Combobox.Location" type="System.Drawing.Point, System.Drawing">
     <value>713, 404</value>
   </data>
-  <data name="comboBox8.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Acupuncture_Points_8_Combobox.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 20</value>
   </data>
-  <data name="comboBox8.TabIndex" type="System.Int32, mscorlib">
+  <data name="Acupuncture_Points_8_Combobox.TabIndex" type="System.Int32, mscorlib">
     <value>66</value>
   </data>
-  <data name="&gt;&gt;comboBox8.Name" xml:space="preserve">
-    <value>comboBox8</value>
+  <data name="&gt;&gt;Acupuncture_Points_8_Combobox.Name" xml:space="preserve">
+    <value>Acupuncture_Points_8_Combobox</value>
   </data>
-  <data name="&gt;&gt;comboBox8.Type" xml:space="preserve">
+  <data name="&gt;&gt;Acupuncture_Points_8_Combobox.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;comboBox8.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Acupuncture_Points_8_Combobox.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;comboBox8.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Acupuncture_Points_8_Combobox.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="comboBox9.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Acupuncture_Points_9_Combobox.Location" type="System.Drawing.Point, System.Drawing">
     <value>1000, 404</value>
   </data>
-  <data name="comboBox9.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Acupuncture_Points_9_Combobox.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 20</value>
   </data>
-  <data name="comboBox9.TabIndex" type="System.Int32, mscorlib">
+  <data name="Acupuncture_Points_9_Combobox.TabIndex" type="System.Int32, mscorlib">
     <value>67</value>
   </data>
-  <data name="&gt;&gt;comboBox9.Name" xml:space="preserve">
-    <value>comboBox9</value>
+  <data name="&gt;&gt;Acupuncture_Points_9_Combobox.Name" xml:space="preserve">
+    <value>Acupuncture_Points_9_Combobox</value>
   </data>
-  <data name="&gt;&gt;comboBox9.Type" xml:space="preserve">
+  <data name="&gt;&gt;Acupuncture_Points_9_Combobox.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;comboBox9.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Acupuncture_Points_9_Combobox.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;comboBox9.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Acupuncture_Points_9_Combobox.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="comboBox10.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="Acupuncture_Points_10_Combobox.Location" type="System.Drawing.Point, System.Drawing">
     <value>1288, 402</value>
   </data>
-  <data name="comboBox10.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="Acupuncture_Points_10_Combobox.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 20</value>
   </data>
-  <data name="comboBox10.TabIndex" type="System.Int32, mscorlib">
+  <data name="Acupuncture_Points_10_Combobox.TabIndex" type="System.Int32, mscorlib">
     <value>68</value>
   </data>
-  <data name="&gt;&gt;comboBox10.Name" xml:space="preserve">
-    <value>comboBox10</value>
+  <data name="&gt;&gt;Acupuncture_Points_10_Combobox.Name" xml:space="preserve">
+    <value>Acupuncture_Points_10_Combobox</value>
   </data>
-  <data name="&gt;&gt;comboBox10.Type" xml:space="preserve">
+  <data name="&gt;&gt;Acupuncture_Points_10_Combobox.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;comboBox10.Parent" xml:space="preserve">
+  <data name="&gt;&gt;Acupuncture_Points_10_Combobox.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;comboBox10.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;Acupuncture_Points_10_Combobox.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -1573,7 +1573,7 @@
     <value>True</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1512, 685</value>
+    <value>1495, 685</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>Manual</value>

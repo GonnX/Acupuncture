@@ -79,23 +79,71 @@ namespace Acupuncture_Points
                   Acupuncture_Points_6_Chart, Acupuncture_Points_7_Chart, Acupuncture_Points_8_Chart, Acupuncture_Points_9_Chart, Acupuncture_Points_10_Chart};
 
 //================================================================ Add ComboBox Items ============================================================================
-            for (int i = 1; i < 7; i++)
+            
+            for(int i = 1; i < 7; i++)
             {
-                for (int j = 0; j < Btn_Size; j++)
-                {
-                    Acupuncture_Points_ComboBox[j].Items.Add("LH0" + i);
-                    Acupuncture_Points_ComboBox[j].Items.Add("LF0" + i);
-                    Acupuncture_Points_ComboBox[j].Items.Add("RH0" + i);
-                    Acupuncture_Points_ComboBox[j].Items.Add("RF0" + i);
+                Acupuncture_Points_ComboBox[0].Items.Add("LH0" + i);
+                Acupuncture_Points_ComboBox[1].Items.Add("RH0" + i);
+                Acupuncture_Points_ComboBox[2].Items.Add("LF0" + i);
+                Acupuncture_Points_ComboBox[3].Items.Add("RF0" + i);
 
-                    if( i < 5 )
-                    {
-                        Acupuncture_Points_ComboBox[j].Items.Add("LS0" + i);
-                        Acupuncture_Points_ComboBox[j].Items.Add("RS0" + i);
-                    }
+                if (i < 5)
+                {
+                    Acupuncture_Points_ComboBox[4].Items.Add("LS0" + i);
+                    Acupuncture_Points_ComboBox[5].Items.Add("RS0" + i);
                 }
             }
-//================================================================================================================================================================
+            for (int j = 6; j < 10; j++)
+            {
+                for (int i = 1; i < 7; i++)
+                    Acupuncture_Points_ComboBox[j].Items.Add("LH0" + i);
+                for (int i = 1; i < 7; i++)
+                    Acupuncture_Points_ComboBox[j].Items.Add("RH0" + i);
+                for (int i = 1; i < 7; i++)
+                    Acupuncture_Points_ComboBox[j].Items.Add("LF0" + i);
+                for (int i = 1; i < 7; i++)
+                    Acupuncture_Points_ComboBox[j].Items.Add("RF0" + i);
+                for (int i = 1; i < 5; i++)
+                    Acupuncture_Points_ComboBox[j].Items.Add("LS0" + i);
+                for (int i = 1; i < 5; i++)
+                    Acupuncture_Points_ComboBox[j].Items.Add("RS0" + i);
+            }
+                
+
+            //for (int i = 1; i < 7; i++)
+            //{
+            //    for (int j = 6; j < Btn_Size; j++)
+            //    {
+            //        Acupuncture_Points_ComboBox[j].Items.Add("LH0" + i);
+            //        Acupuncture_Points_ComboBox[j].Items.Add("LF0" + i);
+            //        Acupuncture_Points_ComboBox[j].Items.Add("RH0" + i);
+            //        Acupuncture_Points_ComboBox[j].Items.Add("RF0" + i);
+
+            //        if (i < 5)
+            //        {
+            //            Acupuncture_Points_ComboBox[j].Items.Add("LS0" + i);
+            //            Acupuncture_Points_ComboBox[j].Items.Add("RS0" + i);
+            //        }
+            //    }
+            //}
+
+            //for (int i = 1; i < 7; i++)
+            //{
+            //    for (int j = 0; j < Btn_Size; j++)
+            //    {
+            //        Acupuncture_Points_ComboBox[j].Items.Add("LH0" + i);
+            //        Acupuncture_Points_ComboBox[j].Items.Add("LF0" + i);
+            //        Acupuncture_Points_ComboBox[j].Items.Add("RH0" + i);
+            //        Acupuncture_Points_ComboBox[j].Items.Add("RF0" + i);
+
+            //        if( i < 5 )
+            //        {
+            //            Acupuncture_Points_ComboBox[j].Items.Add("LS0" + i);
+            //            Acupuncture_Points_ComboBox[j].Items.Add("RS0" + i);
+            //        }
+            //    }
+            //}
+            //================================================================================================================================================================
             for (int i = 0; i < Btn_Size; i++)
                 Btn[i].Enabled = false;
 

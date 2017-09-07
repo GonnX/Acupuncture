@@ -7,3 +7,4 @@ c:\users\luolab\documents\visual studio 2015\Projects\Acupuncture_Points\Acupunc
 c:\users\luolab\documents\visual studio 2015\Projects\Acupuncture_Points\Acupuncture_Points\obj\Debug\Acupuncture_Points.exe
 c:\users\luolab\documents\visual studio 2015\Projects\Acupuncture_Points\Acupuncture_Points\obj\Debug\Acupuncture_Points.pdb
 c:\users\luolab\documents\visual studio 2015\Projects\Acupuncture_Points\Acupuncture_Points\obj\Debug\Acupuncture_Points.Form1.resources
+C:\Users\LuoLab\documents\visual studio 2015\Projects\Acupuncture_Points\Acupuncture_Points\obj\Debug\Acupuncture_Points.csproj.ResolveComReference.cache

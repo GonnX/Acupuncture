@@ -108,41 +108,6 @@ namespace Acupuncture_Points
                 for (int i = 1; i < 5; i++)
                     Acupuncture_Points_ComboBox[j].Items.Add("RS0" + i);
             }
-                
-
-            //for (int i = 1; i < 7; i++)
-            //{
-            //    for (int j = 6; j < Btn_Size; j++)
-            //    {
-            //        Acupuncture_Points_ComboBox[j].Items.Add("LH0" + i);
-            //        Acupuncture_Points_ComboBox[j].Items.Add("LF0" + i);
-            //        Acupuncture_Points_ComboBox[j].Items.Add("RH0" + i);
-            //        Acupuncture_Points_ComboBox[j].Items.Add("RF0" + i);
-
-            //        if (i < 5)
-            //        {
-            //            Acupuncture_Points_ComboBox[j].Items.Add("LS0" + i);
-            //            Acupuncture_Points_ComboBox[j].Items.Add("RS0" + i);
-            //        }
-            //    }
-            //}
-
-            //for (int i = 1; i < 7; i++)
-            //{
-            //    for (int j = 0; j < Btn_Size; j++)
-            //    {
-            //        Acupuncture_Points_ComboBox[j].Items.Add("LH0" + i);
-            //        Acupuncture_Points_ComboBox[j].Items.Add("LF0" + i);
-            //        Acupuncture_Points_ComboBox[j].Items.Add("RH0" + i);
-            //        Acupuncture_Points_ComboBox[j].Items.Add("RF0" + i);
-
-            //        if( i < 5 )
-            //        {
-            //            Acupuncture_Points_ComboBox[j].Items.Add("LS0" + i);
-            //            Acupuncture_Points_ComboBox[j].Items.Add("RS0" + i);
-            //        }
-            //    }
-            //}
             //================================================================================================================================================================
             for (int i = 0; i < Btn_Size; i++)
                 Btn[i].Enabled = false;
